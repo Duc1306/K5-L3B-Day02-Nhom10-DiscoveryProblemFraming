@@ -1,13 +1,9 @@
 # Báo cáo cá nhân — 2A202604109_NguyenTrongKhiem
 
-> Template chi tiết và prompt mẫu cho từng mục: [docs/01-worksheet.md](../../docs/01-worksheet.md).
-> Mỗi thành viên một file trong `report/individual/` trên repo nhóm: copy template này thành file mới, điền, rồi commit bằng tài khoản GitHub của bạn. Không viết hộ người khác.
-
 ## 1. Thông tin học viên
 
 - Họ tên: Nguyễn Trọng Khiêm
 - MSSV: 2A202604109
-- Email trường (không bắt buộc, repo có thể để public):
 - Tên nhóm: Nhóm 10
 - Link repo nhóm: https://github.com/Duc1306/K5-L3B-Day02-Nhom10-DiscoveryProblemFraming
 
@@ -27,7 +23,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 **Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
 
-- Tôi đã mô tả những vấn đề mình đang gặp phải và AI đã hỗ trợ diễn đạt Job Story và định dạng bảng sao cho phù hợp nhất cho cả 5 vấn đề: quản lý deadline bài tập, tổng hợp tài liệu ôn tập, tổng hợp báo cáo nhóm, sắp xếp lịch họp nhóm và theo dõi chi tiêu. Tôi giữ lại các ý này vì phù hợp với những tình huống đã gặp, không có ý nào trong 5 gợi ý bị loại.
+- Tôi tham khảo 3 gợi ý, giữ lại những vấn đề phù hợp với mình và bổ sung tình huống, thời gian ở bảng trên. Phần hỗ trợ diễn đạt Job Story và trình bày được ghi trong nhật ký mục 5.
 
 ---
 
@@ -165,51 +161,83 @@ TỔNG THEO CP1: khoảng 15–20 phút/tuần với 5–6 môn.
 
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
 
-| Hoạt động                  | Tôi đã làm gì?         | Kết quả / ảnh hưởng tới bài nhóm |
-| -------------------------- | ---------------------- | -------------------------------- |
-| Pitch Problem Card         |                        |                                  |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt:    |                                  |
-| Nhận phản biện             | Câu hỏi tôi nhận được: | Tôi đã sửa gì:                   |
-| Gom cluster / cây OST      |                        |                                  |
-| Chọn candidate problem     |                        |                                  |
-| Kiểm chứng / research      |                        |                                  |
-| Quy trình nhóm             |                        |                                  |
-| Problem Statement          |                        |                                  |
-| Mức can thiệp AI           |                        |                                  |
-| Quyết định                 |                        |                                  |
+### 4.1. Vai trò của tôi
+
+Theo [TEAM.md](../../TEAM.md), phần tôi được phân công gồm:
+
+- **Chính W4:** quy trình trước/sau, thời gian từng bước, bước kiểm của con người và phương án quay về.
+- **Chính W8:** bốn rủi ro, quyết định, kế hoạch thử và ngưỡng dừng.
+- **Hỗ trợ W3:** research, nguồn tham khảo và giới hạn của công cụ.
+- **Hỗ trợ W6:** so sánh No AI / Rule / Workflow / Agent.
+
+Những nội dung ghi “theo phân công” dưới đây là trách nhiệm được giao; cần đối chiếu với công việc thực hiện trước khi xác nhận hoàn thành.
+
+### 4.2. Nội dung tham gia và sản phẩm liên quan
+
+| Hoạt động                         | Nội dung cá nhân / phần được giao                                                                                                    | Kết quả hoặc tài liệu đối chiếu                                                                                                                                                                            |
+| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Chuẩn bị pitch                    | Tôi chọn Card #1 — tổng hợp báo cáo nhóm — làm card muốn pitch nhất và chuẩn bị lý do chọn.                                          | Card được giữ trong shortlist ở [báo cáo nhóm mục 2](../team/group_report.md); chưa có nhật ký pitch trực tiếp.                                                                                            |
+| Phản biện bài của bạn khác        | Tôi hỏi một nhóm khác về khả năng lấy dữ liệu từ tài khoản bên ngoài khi chạy local và chính sách bảo mật, lưu giữ dữ liệu.          | Nội dung câu hỏi ở mục 4.3; chưa ghi lại nhóm được hỏi và câu trả lời.                                                                                                                                     |
+| Nhận phản biện                    | Chưa ghi nhận câu hỏi thực tế tôi nhận được từ người khác và thay đổi sau đó.                                                        | Bảng phản biện ở CP2 là phần chuẩn bị với công cụ, được ghi riêng.                                                                                                                                         |
+| Gom cluster / cây OST             | Card ôn tập của tôi được bản chung gộp cùng hướng tìm và kiểm nguồn của Tùng.                                                        | Cluster A trong [báo cáo nhóm mục 2.2](../team/group_report.md), [cây opportunity](../assets/cp3-opportunity-tree.png).                                                                                    |
+| Chọn candidate problem            | Bản chung sử dụng bối cảnh tôi ôn tập từ 6–8 tài liệu, mất khoảng 60–120 phút, để phân tích hướng tìm và tổng hợp tài liệu có nguồn. | [Báo cáo nhóm mục 2.4](../team/group_report.md) chọn hướng này; card tổng hợp báo cáo nhóm vẫn nằm trong shortlist.                                                                                        |
+| Kiểm chứng / research — hỗ trợ W3 | Theo phân công: rà nguồn và giới hạn trong bảng research.                                                                            | [Báo cáo nhóm mục 3](../team/group_report.md); hiện có research và kế hoạch kiểm chứng, chưa có phỏng vấn ngoài nhóm.                                                                                      |
+| Quy trình nhóm — chính W4         | Theo phân công: kiểm các bước, input/output, thời gian, điểm kiểm nguồn và cách quay về thủ công.                                    | [Báo cáo nhóm mục 4](../team/group_report.md), [ảnh hiện tại](../assets/cp5-workflow-current.png), [ảnh tương lai](../assets/cp5-workflow-future.png). Các mốc thời gian là mô hình, chưa phải kết quả đo. |
+| Problem Statement                 | Phạm vi được giao về quy trình và thời gian liên quan đến metric và boundary của v0–v1.                                              | [Báo cáo nhóm mục 5 và 7](../team/group_report.md) tách công chuẩn bị, kiểm/sửa và chất lượng nguồn; chưa ghi nhận chỉnh sửa cụ thể do tôi thực hiện.                                                      |
+| Mức can thiệp — hỗ trợ W6         | Theo phân công: đối chiếu bốn mức và kiểm tra lý do chưa chọn Agent.                                                                 | [Báo cáo nhóm mục 6](../team/group_report.md): Workflow là phương án đề xuất có điều kiện, cần thử No AI/Rule trước.                                                                                       |
+| Quyết định — chính W8             | Theo phân công: rà bốn rủi ro, kế hoạch so sánh ba cách làm và ngưỡng dừng.                                                          | [Báo cáo nhóm mục 8](../team/group_report.md): Not Yet; chưa có kết quả pilot để kết luận hiệu quả.                                                                                                        |
+
+### 4.3. Câu hỏi tôi đặt cho nhóm khác
+
+1. AI của nhóm bạn nếu chạy local thì việc lấy dữ liệu từ các tài khoản hoặc dịch vụ bên ngoài có bị hạn chế không?
+2. Dữ liệu công cụ đọc có nguy cơ lộ thông tin không? Việc gửi, lưu giữ và sử dụng dữ liệu chịu chính sách bảo mật nào?
+
+Hai câu hỏi tập trung vào quyền truy cập và cách xử lý dữ liệu trong phương án của nhóm được hỏi.
 
 ---
 
 ## 5. Dùng AI
 
-| Checkpoint                     | Tôi dùng AI để làm gì?                                                                     | AI hữu ích ở đâu?                                                   | AI sai hoặc hời hợt ở đâu?                                        | Tôi sửa gì bằng nhận định của mình?                                                           |
-| ------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------- | ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| CP1 Scan                       | Gợi ý 5 vấn đề trong sinh hoạt sinh viên; hỗ trợ diễn đạt Job Story và định dạng bảng CP1. | Giúp trình bày rõ tình huống, mong muốn và kết quả của từng vấn đề. | Các gợi ý ban đầu chưa có trải nghiệm và số liệu thực tế của tôi. | Tôi bổ sung số môn học, số tài liệu, thời gian xử lý và các tình huống cụ thể đã gặp.         |
-| CP2 Problem Card               | Hỗ trợ phát triển 3 card từ CP1, mô tả quy trình, phản biện và gợi ý phân bổ thời gian.    | Giúp làm rõ các bước, cách đo và phương án đơn giản trước.          | Các số phút từng bước là giả định, chưa được kiểm chứng.          | Tôi cần đối chiếu với lần thực hiện gần nhất, chốt thời gian, bottleneck và mục tiêu phù hợp. |
-| CP4 Research                   |                                                                                            |                                                                     |                                                                   |                                                                                               |
-| CP5 Quy trình                  |                                                                                            |                                                                     |                                                                   |                                                                                               |
-| CP5–6 Problem Statement        |                                                                                            |                                                                     |                                                                   |                                                                                               |
-| CP6 Mức can thiệp / quyết định |                                                                                            |                                                                     |                                                                   |                                                                                               |
+| Checkpoint                               | Tôi dùng AI để làm gì?                                             | Hữu ích ở đâu?                                         | Điểm sai hoặc cần kiểm lại                                                                   | Tôi đã cung cấp / cách xử lý                                                                                                    |
+| ---------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------ | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| CP1 Scan                                 | Tham khảo gợi ý, diễn đạt Job Story và trình bày bảng.             | Giúp các vấn đề có tình huống và kết quả rõ hơn.       | Gợi ý ban đầu chưa có dữ liệu cá nhân.                                                       | Tôi bổ sung số môn, số tài liệu, thời gian và các tình huống ở mục 2.                                                           |
+| CP2 Problem Card                         | Hỗ trợ phát triển card, quy trình, phân bổ thời gian và phản biện. | Làm rõ bottleneck, cách đo và phương án đơn giản.      | Số phút từng bước chưa được đo; chưa thể khẳng định bước nghẽn.                              | Giữ nhãn tham khảo; thời gian chờ được tách riêng, mục tiêu chưa được ghi thành kết quả.                                        |
+| Đối chiếu báo cáo nhóm và bài thành viên | Rà vai trò, sản phẩm liên quan và nguồn tham khảo.                 | Giúp bài cá nhân khớp phân công và quyết định Not Yet. | Đã hiểu nhầm câu hỏi tôi hỏi nhóm khác thành câu hỏi trong Nhóm 10.                          | Tôi yêu cầu sửa lại đúng ngữ cảnh, không gán câu hỏi cho thành viên trong nhóm.                                                 |
+| CP7                                      | Hỗ trợ đối chiếu tài liệu và soạn bản tham khảo cho phần nhìn lại. | Giúp nối vấn đề, metric, boundary và quyết định.       | Chưa biết cảm nhận hoặc một lần đổi ý thực tế của tôi; không thể suy ra từ bài của bạn khác. | Phần dưới cần được tôi tự viết lại theo trải nghiệm trước khi nộp; không coi việc có bản tham khảo là đã hoàn thành reflection. |
 
 ---
 
 ## 6. Reflection (CP7)
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
+> Bản tham khảo dựa trên dữ kiện đã cung cấp và tài liệu nhóm. Theo yêu cầu CP7, tôi cần tự viết lại phần 6.1–6.6 bằng trải nghiệm của mình, tổng cộng ít nhất 200 từ; không dùng nguyên bản được viết hộ.
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
-**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+Các báo cáo cho thấy cùng là mất thời gian nhưng mỗi vấn đề có một nguyên nhân khác nhau. Tùng tập trung vào tìm thông tin và giữ nguồn, Minh Đức phân tích chi tiêu, còn Anh Đức xem xét chuẩn bị đi chợ và chốt lịch. Với bài ôn tập của tôi, điểm cần phân biệt là mất công tìm, tổng hợp tài liệu hay mất công vì chưa hiểu kiến thức. Cách phân biệt này giúp xác định đúng phần cần cải thiện thay vì chỉ đặt mục tiêu “làm nhanh hơn”.
+
+**6.2. Nhóm có lúc nào bị "solution-first" không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+Chưa có tình huống thảo luận cụ thể được ghi lại để khẳng định nhóm đã nghĩ giải pháp trước. Trong báo cáo hiện tại, các cách như tổ chức thư mục, tìm từ khóa và ghi chú có nguồn được đặt làm đối chứng trước khi thử Workflow. Điều cần giữ là xác định bước nghẽn rồi mới chọn mức can thiệp. Câu hỏi tôi đặt cho nhóm khác về local và bảo mật thuộc phần phản biện chéo, không phải bằng chứng Nhóm 10 đã đổi cách triển khai.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
-**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+Tôi chưa cung cấp một lần đổi ý sau phản biện để ghi vào mục này. Trường hợp cụ thể đã xảy ra trong quá trình chỉnh báo cáo là câu hỏi tôi hỏi nhóm khác bị diễn giải thành câu hỏi trong Nhóm 10. Tôi đã yêu cầu sửa lại đúng người được hỏi và bối cảnh. Đây là việc sửa sai nội dung bản thảo, chưa thay cho một tình huống tôi nhận phản biện rồi thay đổi card hoặc quan điểm.
+
+**6.4. Kết quả kiểm chứng có làm tôi bất ngờ không? Điều gì?**
+
+Bài nhóm hiện chưa có kết quả phỏng vấn ngoài nhóm hoặc pilot, nên chưa có dữ liệu từ các hoạt động đó để mô tả một phát hiện bất ngờ. Bảng research đặt ra hướng thử công cụ sẵn có và cải thiện cách tìm, ghi nguồn trước khi nghĩ tới xây mới. Điểm cần phân biệt là có công cụ phù hợp chưa chứng minh cách làm sẽ tiết kiệm thời gian trong tác vụ thật; vẫn cần đo cả công kiểm tra và sửa.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+Ở phần quy trình và rủi ro được giao, điểm cần làm rõ nhất là phạm vi và cách tính thời gian. Mô hình của nhóm có 35 phút xử lý nhưng còn 20 phút chuẩn bị bộ nguồn: dùng một lần là 55 phút, dùng lại hai tác vụ mới có bình quân 45 phút. Vì vậy, metric cần tính đủ công chuẩn bị, kiểm và sửa, đồng thời kiểm chất lượng nguồn. Chỉ so thời gian tạo bản nháp sẽ chưa phản ánh công sức để có bản dùng được.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi _problem → quy trình → metric → boundary → mức can thiệp AI → quyết định_ của bài nhóm mình.
+Tôi sẽ ưu tiên ghi thời gian một tác vụ thật và xác định bộ tài liệu được phép dùng trước khi chốt target. Với phần W4, tôi sẽ tách thời gian tìm, tổng hợp, kiểm, sửa và chờ để so sánh cùng một phạm vi. Với W8, tôi sẽ kiểm tra cách đơn giản hơn đã đủ chưa và ngưỡng nào khiến phương án phải dừng. Câu hỏi phản biện nhóm khác cũng là một góc để xem xét kỹ quyền dữ liệu và điều kiện triển khai.
+
+**6.7. Hiểu bài — problem → quy trình → metric → boundary → mức can thiệp → quyết định**
+
+Bài nhóm phân tích việc sinh viên mất nhiều công tìm và tổng hợp thông tin học tập, đồng thời khó quay lại đúng đoạn nguồn để kiểm tra. Quy trình gồm xác định yêu cầu, gom tài liệu, tìm đoạn, chọn ý và ghi nguồn, viết tổng hợp, kiểm rồi lưu. Khoảng 60–120 phút là mô tả ở CP1 của tôi; mô hình 90 phút trong báo cáo nhóm chưa phải baseline đã bấm giờ. Mục tiêu đề xuất là tối đa 45 phút mỗi tác vụ tính cả phần chuẩn bị được phân bổ, nguồn đúng, đủ ý và giảm ít nhất 20% công đầy đủ so với No AI đã cải thiện. Boundary giới hạn trong bộ nguồn được duyệt, không tự sửa file gốc, thêm nguồn hoặc gửi bài; người học kiểm và chốt đầu ra. Workflow là phương án cần thử sau No AI/Rule vì các bước có thể định trước, chưa có lý do chọn Agent. Quyết định hiện tại là Not Yet do thiếu baseline thống nhất, kiểm chứng ngoài nhóm và kết quả thử thực tế.
 
 ---
 
