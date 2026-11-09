@@ -206,85 +206,119 @@ Bảng sau ghi phản biện và cách xử lý trong bản minh họa. Cột th
 
 
 
-| Hoạt động | Nội dung chuẩn bị / kế hoạch tham gia | Kết quả dự kiến hoặc trạng thái |
-|---|---|---|
-| Pitch Problem Card | Chuẩn bị Card #1 với actor, quy trình 6 bước, tác động và mức can thiệp sơ bộ. | Có bản để tự trình bày; chưa ghi nhận buổi pitch. |
-| Phản biện bài của bạn khác | Chuẩn bị câu hỏi: “Lần gần nhất vấn đề xảy ra là khi nào? Cách đơn giản nhất hiện tại có giải được không?” | Mục tiêu là kiểm bằng chứng và tránh chọn giải pháp quá sớm; chưa có câu hỏi thực tế đã đặt cho thành viên khác. |
-| Nhận phản biện | Đã có phản biện do AI đưa ra về số đo, công nhập liệu và việc phân loại không bảo đảm giảm chi. | Bản minh họa đã thêm metric mức chi và tổng thời gian; chưa có phản biện từ thành viên nhóm. |
-| Gom cluster / cây OST | Chuẩn bị các cluster: kiểm soát tiền cá nhân; phối hợp khoản chi chung; chuẩn bị mua đồ; quản lý thông tin học tập. | Đề xuất outcome: giảm mức chi vượt dự định, với công sức theo dõi chấp nhận được. |
-| Chọn candidate problem | Đề xuất chi tiêu cá nhân vì có trải nghiệm làm điểm xuất phát. | Đây là đề xuất trong bản soạn, chưa phải lựa chọn chung. |
-| Kiểm chứng / research | Kế hoạch: ghi chi tiêu 7 ngày; phỏng vấn 2–3 người ngoài nhóm thật sự gặp vấn đề; tìm 2–3 cách giải hiện có và tự mở nguồn. | Chưa tạo kết quả phỏng vấn, số người xác nhận hoặc bảng research giả. |
-| Quy trình nhóm | Đã có quy trình CP2 để làm đầu vào; đề xuất tự đối chiếu và bấm giờ trước khi dùng ở CP5. | Xác định người ghi dữ liệu, người kiểm, cách sửa khi tổng không khớp. |
-| Problem Statement | Đề xuất metric đủ baseline, target và cách đo; tách vấn đề khỏi công cụ. | Các baseline số học trong file vẫn là giả định, chưa thay thế dữ liệu thực tế. |
-| Mức can thiệp AI | Đề xuất so sánh No AI → Rule → Workflow → Agent; dùng Rule làm phương án thử cho bài chi tiêu. | Chưa có bằng chứng cần AI đọc hiểu hoặc tự quyết bước tiếp theo. |
-| Quyết định | Đề xuất **Not Yet** cho triển khai rộng vì baseline và khả năng ghi đều chưa được kiểm chứng. | Bước tiếp theo là xác nhận dữ liệu trước khi thử 30 ngày; chưa phải quyết định đã được nhóm thông qua. |
+### 4.1. Vai trò của tôi
 
-**Ngưỡng dừng đề xuất cho phép thử:** nếu ghi/kiểm tra tốn hơn 2 phút/ngày trong 5/7 ngày, đơn giản hóa cách nhập. Nếu dưới 80% số khoản chi được ghi trong vòng 24 giờ trong 2 tuần liên tiếp, dừng cách theo dõi hiện tại và xem lại thói quen nhập; không khắc phục bằng cách để hệ thống đoán khoản chi còn thiếu.
+- **Chính W2 — CP4:** Assumption map, sổ bằng chứng và kế hoạch kiểm chứng.
+- **Chính W6 — CP6:** so sánh No AI / Rule / Workflow / Agent, AI Canvas và hai câu hỏi PAIR.
+- **Hỗ trợ W1 — CP3:** đối chiếu card, cluster, cây opportunity và shortlist.
+- **Hỗ trợ W8 — CP6:** rà tính nhất quán của quyết định, kế hoạch thử và ngưỡng dừng.
+- Tỷ trọng được phân công: **25%**, gồm 2 đầu việc chính và 2 đầu việc hỗ trợ. Dự toán 120 phút/người trong TEAM.md là cách cân đối tải, chưa phải nhật ký giờ thực hiện.
+
+### 4.2. Nội dung tham gia và sản phẩm
+
+| Hoạt động | Tôi đã làm gì trong quá trình hoàn thiện tài liệu? | Kết quả / bằng chứng |
+|---|---|---|
+| Chuẩn bị Pitch Problem Card | Cung cấp trải nghiệm cuối tháng gần hết tiền do ăn uống và mua quần áo; đưa card chi tiêu cá nhân vào đầu vào chung. | Card của tôi xuất hiện trong bảng 12 card ở báo cáo nhóm mục 2.1. Chưa có nhật ký xác nhận một buổi pitch trực tiếp. |
+| Phản biện bài của bạn khác | Khi tổng hợp với AI, đối chiếu các card tìm, khoanh vùng và tổng hợp của Tùng; chuẩn bị câu hỏi: “Đây có phải các bước của một quy trình? Tổ chức file và tìm từ khóa đã đủ chưa?” | T1–T3 được gom cùng cluster A; câu hỏi được giữ ở dạng phản biện tài liệu, chưa ghi thành lời tôi đã hỏi trực tiếp một thành viên. |
+| Nhận phản biện | Tiếp nhận phản biện do AI nêu khi soạn: “Nhanh hơn có bảo đảm đúng và đủ không?” và “Đã tính công chuẩn bị, kiểm và sửa chưa?” | Bản nhóm thêm chất lượng nguồn, độ phủ, công kiểm/sửa và công chuẩn bị phân bổ ở v1; đây không phải câu hỏi được gán cho một bạn trong nhóm. |
+| Gom cluster / cây OST — hỗ trợ W1 | Nhờ AI đọc cả 4 báo cáo, tổng hợp 31 dòng scan thành 12 card và 7 cluster; dùng kết quả để đối chiếu phần cá nhân với hướng nhóm chọn. | Báo cáo nhóm mục 2 và [ảnh cây opportunity](../assets/cp3-opportunity-tree.png). Các card gần nhau không được tính là bằng chứng độc lập. |
+| Chọn candidate problem | Dùng bảng so sánh để chuyển phần làm nhóm từ ưu tiên chi tiêu của bản cá nhân sang bài toán tra cứu và tổng hợp tài liệu có nguồn. | Shortlist: tài liệu có nguồn 32/35, tổng hợp báo cáo nhóm 31/35, chi tiêu 29/35. Đây là kết quả phân tích trong báo cáo, không phải biên bản bỏ phiếu. |
+| Kiểm chứng / research — chính W2 | Phối hợp AI hoàn thiện 6 giả định, sổ bằng chứng E1–E5, câu hỏi hỏi hành vi đã xảy ra và mẫu snapshot. Tham chiếu phần research của báo cáo để kiểm điều kiện dùng công cụ sẵn có. | Báo cáo nhóm mục 3.1–3.3 và [mẫu snapshot](../assets/cp4-interview-snapshot-template.md). Đã có hồ sơ chuẩn bị; chưa có snapshot ngoài nhóm hoặc phản hồi survey được thu thập. |
+| Quy trình nhóm | Nhờ AI tạo ảnh theo quy trình trong báo cáo, giữ rõ bước con người kiểm nguồn và nhánh quay về thủ công. | [Ảnh hiện tại](../assets/cp5-workflow-current.png), [ảnh tương lai](../assets/cp5-workflow-future.png); mô hình 90 phút hiện tại và 35 phút xử lý lặp lại + 20 phút khởi tạo cho phương án mới. |
+| Problem Statement | Đối chiếu v0 và v1 của nhóm để cập nhật phần cá nhân theo đúng actor, phạm vi, metric và boundary. | Mục 5 và 7 của báo cáo nhóm: v1 giới hạn 6–8 tài liệu có nhu cầu dùng lại, thêm chất lượng và cách tính toàn bộ công sức. |
+| Mức can thiệp AI — chính W6 | Hoàn thiện phần so sánh bốn mức với AI hỗ trợ; làm rõ dữ liệu đầu vào, việc AI hỗ trợ và điểm người học quyết định. | Báo cáo nhóm mục 6: Workflow là phương án đề xuất có điều kiện; No AI/Rule phải được thử trước; chưa có lý do chọn Agent. |
+| Quyết định — hỗ trợ W8 | Đối chiếu quyết định với mức bằng chứng, bốn rủi ro và cách thử A/B/C; giữ các mục tiêu tách khỏi kết quả đã đạt. | Báo cáo nhóm mục 8: **Not Yet**, Value và Usability còn Cao; có kế hoạch 18 lượt so sánh, chưa thực hiện pilot. |
+
+### 4.3. Những phần đã hoàn thiện và phần còn phải kiểm chứng
+
+**Đã có sản phẩm tài liệu:** báo cáo nhóm CP3–CP6; phân công TEAM.md; cây opportunity và ảnh quy trình; assumption map, kế hoạch hỏi, mẫu snapshot; v0–v1; so sánh mức can thiệp; 5 tiêu chí và 10 cặp eval minh họa; quyết định và ngưỡng dừng.
+
+**Chưa có kết quả thực nghiệm:** thời gian baseline được bấm giờ theo cùng cách đo, phỏng vấn ngoài nhóm, phản hồi survey, corpus thử thật và điểm eval/pilot. Việc hoàn thiện file không có nghĩa những hoạt động này đã được thực hiện.
+
+Ngưỡng theo dõi của bài nhóm hiện tại là công kiểm/sửa trên 20 phút ở ít nhất 2 trong 3 lượt C đầu thì xem lại cách làm; kết thúc so sánh, nếu nhánh AI không giảm ít nhất 20% công đầy đủ so với No AI đã cải thiện hoặc chất lượng thấp hơn thì không mở rộng nhánh AI. Đây là ngưỡng đề xuất cho tương lai.
 
 ---
 
 ## 5. Dùng AI
 
-**Nhật ký này phản ánh việc dùng AI trong phiên hỗ trợ. Các công việc CP4–CP6 chưa diễn ra được phân biệt với việc chuẩn bị nội dung.**
+Nhật ký ghi cả việc dùng AI để hoàn thiện tài liệu nhóm, tạo ảnh và chuẩn bị nội dung cá nhân. Các phần có AI hỗ trợ được khai rõ; không coi bản tổng hợp CP3 là một phiên pitch và phản biện trực tiếp không dùng AI.
 
-| Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Thông tin của tôi / cách xử lý trong bản soạn |
+| Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi đã cung cấp / cách xử lý trong bài |
 |---|---|---|---|---|
-| CP1 Scan | Gợi ý vấn đề đời sống và chuyển tình huống chi tiêu thành Job Story. | Mở rộng qua 4 lăng kính, giữ tình huống cụ thể. | AI chưa biết tôi đã thực sự gặp các vấn đề khác hay chưa. | Tôi cung cấp chuyện cuối tháng gần hết tiền do ăn uống và mua quần áo; bản soạn tách tình huống này khỏi ví dụ giả định. |
-| CP2 Problem Card | Hỗ trợ cấu trúc 3 card, quy trình, metric và phản biện. | Làm rõ bước nghẽn, đầu vào/đầu ra và phương án không dùng AI. | Bản đầu thiếu số đo; các bước và thời gian chưa được kiểm thực tế. | Theo yêu cầu của tôi, bản soạn điền ước lượng và gắn nhãn giả định; không gọi đó là kết quả bấm giờ. |
-| CP4 Research | Chưa dùng AI để thực hiện research hoặc tạo dữ liệu người dùng. | Mới chuẩn bị kế hoạch kiểm chứng. | Không có dữ liệu để kết luận người khác cùng gặp pain. | Giữ quyết định đề xuất ở mức Not Yet; không tạo người trả lời hoặc trích dẫn tưởng tượng. |
-| CP5 Quy trình | Mới dùng AI soạn sơ đồ CP2 và dự toán công sức của phương án thử. | Chỉ ra cần cộng cả thời gian ghi hằng ngày và kiểm tra định kỳ. | Dự toán 39,5 phút/tháng có thể sai nếu nhiều giao dịch hoặc ghi chậm. | Ghi rõ cách tính và ngưỡng đo lại; chưa coi đây là quy trình nhóm đã xác nhận. |
-| CP5–6 Problem Statement | Chuẩn bị cách kiểm actor, metric, boundary. | Tách mục tiêu biết tiền đi đâu khỏi giả định phải dùng AI. | Baseline 16%, 80% và 60 phút đều là số dựng cho mô hình. | Phân biệt số giả định và trải nghiệm thật ngay đầu file; chưa có Problem Statement chung của nhóm. |
-| CP6 Mức can thiệp / quyết định | Gợi ý lập luận chọn Rule và Not Yet cho kịch bản. | Làm rõ phép cộng, cảnh báo theo hạn mức chưa cần Agent. | Chưa thử tính tiện dụng hoặc mức sẵn sàng ghi chép của người dùng. | Xem đây là phương án tham chiếu để kiểm chứng, không ghi thành quyết định tập thể. |
+| CP1 Scan | Gợi ý tình huống đời sống và diễn đạt Job Story. | Giúp mở rộng theo 4 lăng kính từ một khó khăn cụ thể. | AI chưa biết những tình huống ngoài chi tiêu có thực sự thuộc trải nghiệm của tôi không. | Tôi cung cấp chuyện cuối tháng gần hết tiền do ăn uống và mua quần áo; các ví dụ và con số khác được nhận diện là giả định. |
+| CP2 Problem Card | Soạn 3 card, quy trình, mục tiêu và phản biện. | Làm rõ bottleneck, phương án không dùng AI và cách đo. | Thời gian từng bước và số tiền đều chưa được đo thực tế. | Theo yêu cầu của tôi, AI điền ước lượng để có mô hình phân tích; số đó không được coi là kết quả quan sát. |
+| CP3 — Tổng hợp tài liệu nhóm | Đọc 4 báo cáo, gom 12 card, cluster, OST và đề xuất shortlist. | So sánh các hướng thay vì chỉ giữ bài chi tiêu cá nhân. | Card T1–T3 có thể là các bước cùng quy trình; số liệu giả định không đủ sức làm bằng chứng. | Gộp các khía cạnh liên quan, phân biệt nguồn tự thuật/minh họa và ghi bảng điểm là phân tích có AI hỗ trợ. |
+| CP4 — Assumption map / research | Tổng hợp sổ bằng chứng, câu hỏi kiểm chứng và research nguồn chính thức. | Chỉ ra các giả định yếu, cách No AI cần thử và công cụ sẵn có để đối chiếu. | Research tính năng công cụ không chứng minh người dùng có pain hoặc phương án sẽ tiết kiệm thời gian. | Giữ kế hoạch kiểm chứng và quyết định Not Yet; dẫn nguồn research từ báo cáo nhóm, không tạo người trả lời hay kết quả survey. |
+| CP5 — Quy trình và ảnh | Chuyển mô tả thành Mermaid, tạo ảnh cây opportunity và quy trình trước/sau. | Làm rõ công con người, công cụ, điểm kiểm và fallback. | Các tổng 90, 35 và 20 phút mới là mô hình; chỉ nhìn 35 phút sẽ bỏ sót công khởi tạo. | Dùng cách tính 35 + 20/n phút/tác vụ và ghi rõ tính giả định; giữ công kiểm/sửa trong tổng. |
+| CP5–6 — Problem Statement | Phản biện và hoàn thiện cách trình bày v0→v1 của nhóm. | Thêm phạm vi, chất lượng nguồn, độ phủ và giới hạn quyền tự động. | Một metric tốc độ đơn lẻ không đủ đánh giá bản tổng hợp đúng và hữu ích. | Bản nhóm có 5 tiêu chí và 10 cặp eval minh họa; chưa ghi thành 10 lần chạy đạt. |
+| CP6 — Mức can thiệp / quyết định | So sánh No AI, Rule, Workflow, Agent; hoàn thiện AI Canvas, PAIR và 4 rủi ro. | Cho thấy các bước định sẵn và con người kiểm có thể đủ, chưa cần Agent. | Chưa có kết quả so sánh để khẳng định Workflow hơn cách đơn giản. | Giữ Workflow ở mức đề xuất có điều kiện, yêu cầu lợi ích tăng thêm ≥20% so với đối chứng và quyết định Not Yet. |
+| Hoàn thiện repo / CP7 | Soạn TEAM.md, chia đều công việc, tạo ảnh và cập nhật mục 4–7 theo sản phẩm mới. | Giúp các file thống nhất và có liên kết đến bằng chứng tài liệu. | **Bản cá nhân cũ còn mô tả kế hoạch chi tiêu ở mục 4–7 sau khi bài nhóm đã chuyển sang tài liệu.** | Tôi yêu cầu đọc lại group_report.md và TEAM.md để sửa phần lỗi thời; bản cập nhật ghi rõ AI hỗ trợ phần diễn đạt reflection. |
 
 ---
 
-## 6. Reflection (CP7) — bản minh họa do AI soạn
+## 6. Reflection (CP7)
 
-**Phần 6.1–6.7 dưới đây là bài mẫu để tham khảo cách lập luận theo kịch bản của file. Không phải reflection cá nhân đã được người học tự viết hoặc bằng chứng về việc tham gia nhóm.**
+> AI hỗ trợ tổng hợp và diễn đạt phần nhìn lại dưới đây từ quá trình hoàn thiện tài liệu. Căn cứ là nội dung trong các file và các yêu cầu tôi đã đưa ra; các nhận định cá nhân cần được tôi tự đối chiếu với trải nghiệm của mình. Không đưa cuộc phỏng vấn hoặc trao đổi giữa thành viên chưa được ghi nhận vào câu chuyện làm bài.
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
-Khi đặt ba vấn đề chi tiêu cá nhân, chia tiền đi ăn và mua thiếu đồ cạnh nhau trong bản phân tích, tôi thấy những khó khăn rất nhỏ trong sinh hoạt cũng có thể trở thành bài toán rõ ràng. Điểm cần tìm là ai đang vướng, vướng ở bước nào và có dấu hiệu gì để kiểm tra. Với chi tiêu cá nhân, nhìn số dư cuối tháng chỉ cho biết còn bao nhiêu tiền; để biết nên điều chỉnh việc gì thì cần hiểu các khoản đã chi. Đây là điều tôi có thể mang ra trao đổi khi nhóm thực sự trình bày các candidate.
+Qua việc đối chiếu bốn báo cáo, tôi thấy các bạn có những khó khăn gần gũi nhưng cần cách giải khác nhau. Anh Đức tập trung vào nguyên liệu và danh sách đi chợ; Tùng gặp khó khi tìm thông tin và kiểm nguồn; Khiêm mất công tổng hợp báo cáo, chuẩn bị ôn tập và theo dõi deadline. Tôi nhận ra thời gian cũng phải đi cùng phạm vi: vài ngày chốt lịch có phần chờ, còn 60–120 phút tổng hợp là công cho một tác vụ. Vì vậy, cần so sánh cả actor, quy trình và bằng chứng trước khi chọn bài toán.
 
 **6.2. Nhóm có lúc nào bị “solution-first” không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
-Chưa có diễn biến nhóm thực tế để kết luận. Trong kịch bản này, nguy cơ nghĩ giải pháp trước là thấy khó quản lý tiền rồi lập tức muốn làm một trợ lý tự động. Cách xử lý được đề xuất là quay lại tình huống cuối tháng gần hết tiền, tách từng bước hiện tại và hỏi bảng ghi đơn giản đã đủ chưa. Nếu phép cộng theo nhóm và việc kiểm tra hằng tuần giải quyết được vấn đề thì mức Rule là lựa chọn hợp lý để thử.
+Chưa có biên bản để kể một cuộc tranh luận cụ thể giữa các bạn. Trong quá trình hoàn thiện báo cáo, điểm cần tránh là nhìn thấy việc tìm tài liệu lâu rồi quyết định ngay phải xây chatbot hoặc Agent. Bản nhóm đã quay về câu hỏi người học mất công ở bước nào, cách tìm từ khóa và ghi nguồn hiện có đã đủ chưa. Tôi rút ra rằng Workflow chỉ là một phương án cần kiểm, còn bước đầu vẫn phải thử tổ chức tài liệu, bookmark và ghi chú có nguồn.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
-Điểm thay đổi thể hiện trong bản nháp là cách nhìn về thành công. Nếu chỉ đo thời gian tổng hợp nhanh hơn, một người vẫn có thể tiếp tục mua quá mức dự định. Sau phản biện của AI, bản soạn bổ sung tỷ lệ vượt hạn mức bên cạnh thời gian và độ rõ thông tin. Việc tính thời gian cũng được mở rộng sang cả ghi mỗi ngày và kiểm tra mỗi tuần. Đây là thay đổi của bản phân tích; chưa có lời xác nhận về việc tôi đã đổi ý sau thảo luận với thành viên khác.
+Thay đổi rõ nhất trong bài là từ ưu tiên chi tiêu cá nhân sang sử dụng bài toán tra cứu và tổng hợp tài liệu cho phần nhóm. Chi tiêu là chuyện tôi đã kể thật, nhưng việc tổng hợp nhanh hơn chưa chắc làm giảm chi vượt dự định. Khi đối chiếu bảng shortlist, hướng tài liệu có nguồn đạt 32/35 và có hai bối cảnh tự thuật bổ trợ từ Tùng và Khiêm. Tôi cập nhật phần làm nhóm theo hướng này, đồng thời giữ card chi tiêu ở CP2 của mình để thể hiện quá trình mở rộng rồi thu hẹp.
 
-**6.4. Kết quả kiểm chứng có làm tôi bất ngờ không? Điều gì?**
+**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
-Hiện chưa có phỏng vấn, survey hoặc thử nghiệm để kể một kết quả bất ngờ. Điều có sẵn là trải nghiệm của tôi: cuối tháng tài khoản gần hết sau nhiều khoản mua quần áo và ăn uống. Phép tính giả định 5.800.000đ so với dự định 5.000.000đ giúp hình dung mức vượt 16%, nhưng không chứng minh tháng thực tế của tôi cũng như vậy. Bước cần làm tiếp là xem dữ liệu thật có cho thấy cùng nguyên nhân hay không.
+Điều đáng chú ý từ research trong báo cáo là đã có những cách hỗ trợ tìm tài liệu và giữ nguồn mà không cần tự xây hệ thống mới. Vì vậy, bài toán cần kiểm là phần giá trị còn thiếu sau khi dùng cách đơn giản. Tôi cũng nhận ra phải phân biệt research công cụ với kiểm chứng người dùng: có tính năng phù hợp chưa chứng minh người khác gặp pain hoặc sẵn sàng duy trì cách làm. Hiện chưa có phỏng vấn ngoài nhóm hay survey để kể một phát hiện thực tế; đây là lý do quyết định vẫn là Not Yet.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
-Điều khó trong bản phân tích là phân biệt điều đã biết với điều đang đoán. “Tôi khó kiểm soát chi tiêu” là tình huống có thật được cung cấp, còn “bước phân loại mất 20 phút” mới là một ước lượng. Ngoài ra, cần tách vấn đề thiếu thông tin khỏi việc khó duy trì hạn mức. Một bảng rất chính xác vẫn có thể ít giá trị nếu người dùng không ghi đều hoặc không thay đổi quyết định chi.
+Điều khó nhất là viết metric vừa đo được vừa không làm mức cải thiện trông lớn hơn thực tế. Phương án mới dự toán 35 phút xử lý nhưng còn 20 phút chuẩn bị bộ nguồn. Nếu chỉ dùng một lần thì tổng là 55 phút; dùng lại hai tác vụ mới có bình quân 45 phút theo mô hình. Tôi cũng cần giữ mục tiêu tốc độ đi cùng nguồn đúng, đủ ý và không có lỗi quan trọng. Một câu có citation vẫn cần mở đoạn gốc để xem nguồn có thực sự chứng minh ý đó không.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
-Tôi sẽ bắt đầu bằng việc ghi và đối chiếu chi tiêu trong 7 ngày, sau đó mới chốt baseline. Khi thảo luận, tôi sẽ hỏi kỹ công sức nhập liệu và phương án khi thiếu dữ liệu. Tôi cũng muốn kiểm tra người dùng cần xem số còn lại vào lúc nào để thông tin giúp được họ. Với phương án thử, tôi ưu tiên ít thao tác, số liệu truy được về khoản gốc và có thể quay về ghi thủ công khi tổng không khớp.
+Tôi sẽ thu baseline và chọn bộ tài liệu được phép dùng sớm hơn, rồi mới phân bổ thời gian và chốt target. Ở phần W2, tôi ưu tiên hỏi 2–3 người ngoài nhóm về lần làm gần nhất và ghi cả trường hợp họ thấy tìm thông thường đã đủ. Ở W6, tôi sẽ hỏi rõ AI tạo lợi ích gì sau đối chứng No AI, ai kiểm từng ý và khi nào quay về thủ công. Tôi cũng sẽ cập nhật phần cá nhân ngay khi nhóm đổi candidate để tránh việc mục 4–7 còn mô tả bài toán cũ.
 
-**6.7. Hiểu bài — chuỗi lập luận của phương án minh họa (8 câu)**
+**6.7. Hiểu bài — chuỗi problem → quy trình → metric → boundary → mức can thiệp → quyết định của bài nhóm (8 câu)**
 
-1. Vấn đề xuất phát từ tình huống cuối tháng gần hết tiền nhưng khó biết tiền đã tiêu vào đâu, đặc biệt ở ăn uống và mua quần áo.
-2. Quy trình mô phỏng gồm kiểm số dư, gom giao dịch, nhớ khoản chưa ghi, phân loại, cộng theo nhóm và so với mức dự định.
-3. Bước nghẽn giả định là đối chiếu và phân loại trong 20 phút, còn tổng thời gian hiện tại là 60 phút/tháng.
-4. Mục tiêu thử là giảm mức vượt dự định từ 16% xuống tối đa 5%, nhận diện nhóm của ít nhất 95% giá trị khoản đã ghi và giữ công sức theo dõi không quá 45 phút/tháng.
-5. Boundary là hệ thống chỉ ghi, cộng và nhắc, còn người dùng kiểm dữ liệu và tự quyết định chi tiêu; hệ thống không tự chuyển tiền hoặc đoán khoản còn thiếu.
-6. Mức tham chiếu là Rule vì các phép tính và ngưỡng cảnh báo xác định được trước, chưa có bằng chứng cần AI tự chọn bước tiếp theo.
-7. Quyết định đề xuất là Not Yet vì rủi ro Value và Usability còn cao: mới có một tình huống cá nhân, các số đo và việc duy trì ghi chép chưa được kiểm chứng.
-8. Bước tiếp theo là thu baseline, hỏi người thật rồi mới thử 30 ngày, với ngưỡng dừng nếu cách ghi quá tốn công hoặc liên tục thiếu khoản chi.
+1. Bài nhóm chọn vấn đề sinh viên mất nhiều công tìm và tổng hợp thông tin từ nhiều tài liệu, đồng thời khó quay lại đúng đoạn nguồn để kiểm tra.
+2. Quy trình hiện tại gồm xác định yêu cầu, gom file, tìm đoạn, chọn ý và ghi nguồn, viết tổng hợp, kiểm rồi lưu; mô hình 90 phút có bước dò đoạn 30 phút nhưng các số này chưa được bấm giờ.
+3. Phương án đề xuất là duyệt câu hỏi và nguồn trước, dùng công cụ tìm đoạn và AI soạn nháp, sau đó người học kiểm từng ý, chỉnh và lưu.
+4. Metric gồm công đầy đủ không quá 45 phút/tác vụ, giảm ít nhất 20% so với No AI đã cải thiện, 100% nhận định thực tế có nguồn đúng, độ phủ ít nhất 90% ý bắt buộc có căn cứ và không có lỗi quan trọng ở bản đã duyệt.
+5. Boundary là chỉ dùng bộ nguồn đã duyệt, không tự mở rộng nguồn, sửa file gốc hoặc gửi bài; người học chốt đầu ra và có phương án quay về đọc, ghi nguồn thủ công.
+6. Mức can thiệp là Workflow đề xuất có điều kiện vì thứ tự xử lý định sẵn được; cần thử No AI/Rule trước và chưa có lý do để AI tự quyết bước tiếp theo như Agent.
+7. Quyết định hiện tại là Not Yet vì Value và Usability còn Cao, các khoảng thời gian mới là tự thuật hoặc mô hình và chưa có kiểm chứng ngoài nhóm hay pilot.
+8. Bước tiếp theo là thu dữ liệu thật và so sánh A/B/C; nếu công kiểm/sửa quá cao hoặc nhánh AI không tạo đủ lợi ích tăng thêm thì ưu tiên cách đơn giản hơn.
 
 ---
 
 ## 7. Tài liệu tham khảo và nguồn dữ liệu
 
+### 7.1. Sản phẩm nhóm dùng để cập nhật báo cáo cá nhân
+
+- [Báo cáo nhóm CP3–CP6](../team/group_report.md): chọn candidate ở mục 2; bằng chứng và research ở mục 3; quy trình, v0–v1 và mức can thiệp ở mục 4–7; quyết định ở mục 8.
+- [TEAM.md](../../TEAM.md): chính W2, W6; hỗ trợ W1, W8; tỷ trọng phân công 25%.
+- [Báo cáo Trương Anh Đức](2A202604096_TruongAnhDuc.md), [báo cáo Vũ Ngọc Tùng](2A202604106_VuNgocTung.md), [báo cáo Nguyễn Trọng Khiêm](2A202604109_NguyenTrongKhiem.md): nguồn đối chiếu candidate và tự thuật.
+- [Ảnh cây opportunity](../assets/cp3-opportunity-tree.png), [quy trình hiện tại](../assets/cp5-workflow-current.png), [quy trình tương lai](../assets/cp5-workflow-future.png): sản phẩm minh họa theo báo cáo nhóm.
+- [Mẫu Interview Snapshot](../assets/cp4-interview-snapshot-template.md): biểu mẫu chuẩn bị thu thập, chưa phải một cuộc phỏng vấn.
+
+### 7.2. Tài liệu hướng dẫn
+
 - [Worksheet và prompt mẫu](../../docs/01-worksheet.md).
 - [Bài làm mẫu — tham khảo cấu trúc](../../docs/02-deliverable-example.md).
 - [Quy định sử dụng AI và bằng chứng](../../RULES.md).
 - [Rubric chấm bài](../../RUBRIC.md).
-- **Nguồn trải nghiệm thật:** lời kể trực tiếp của Trịnh Minh Đức trong phiên trao đổi về việc cuối tháng gần hết tiền sau khi mua quần áo và ăn uống nhiều.
-- **Nguồn số liệu minh họa:** AI xây dựng theo yêu cầu của người học; không lấy từ sao kê, khảo sát, phỏng vấn hoặc nghiên cứu thực tế.
-- **Giới hạn:** chưa có nguồn bên ngoài được research trong bản này; chưa có thử nghiệm hoặc quyết định chung của nhóm. Các kết quả cải thiện được nêu là mục tiêu đề xuất, không phải kết quả đã đạt.
+
+### 7.3. Phân biệt nguồn và trạng thái
+
+- **Trải nghiệm cá nhân đã cung cấp:** cuối tháng tài khoản gần hết sau nhiều khoản ăn uống và mua quần áo, khó biết tiền đi đâu và có lúc chi vượt dự định.
+- **Số minh họa CP1–CP2:** các mức tiền, thời gian từng bước và tỷ lệ được AI dựng theo yêu cầu để phân tích; không phải dữ liệu đã đo.
+- **Nguồn bài nhóm:** báo cáo cá nhân của các thành viên, research chính thức được dẫn trong group_report.md và mô hình thời gian có ghi nhãn.
+- **Sản phẩm đã hoàn thiện:** tài liệu báo cáo, phân công, ảnh quy trình và phần chuẩn bị kiểm chứng.
+- **Hoạt động chưa có kết quả:** phỏng vấn ngoài nhóm, survey, baseline bấm giờ, thử công cụ trên corpus thật và chấm pilot/eval.
+- **Vai trò AI:** hỗ trợ tổng hợp, phản biện, tạo ảnh và diễn đạt nội dung, bao gồm bản cập nhật mục 4–7 này; không thay thế bằng chứng người thật hoặc nhật ký tham gia chưa có.

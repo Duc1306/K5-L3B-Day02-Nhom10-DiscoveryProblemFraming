@@ -12,7 +12,7 @@
 - **Phương án đề xuất:** Workflow hỗ trợ tìm đoạn và soạn nháp có nguồn, con người kiểm; đối chứng No AI/Rule trước.
 - **Quyết định trong báo cáo hiện tại:** **Not Yet** — cần baseline, kiểm chứng ngoài nhóm và thử khả năng kiểm nguồn trước khi triển khai.
 - **Báo cáo chung:** [group_report.md](report/team/group_report.md).
-- **Tài liệu phụ:** [report/assets/](report/assets/README.md).
+- **Tài liệu phụ:** [thư mục report/assets/](report/assets/).
 
 ## Thành viên
 
@@ -32,7 +32,7 @@ Mỗi đầu việc có một người chính và một người hỗ trợ. D�
 | Mã | Checkpoint | Người chính | Người hỗ trợ | Sản phẩm và phạm vi rà soát |
 |---|---|---|---|---|
 | W1 | CP3 — Hội tụ nhóm | Vũ Ngọc Tùng | Trịnh Minh Đức | Rà 12 card, gom cluster, kiểm OST và giải thích điểm chọn–loại. Báo cáo nhóm mục 2. |
-| W2 | CP4 — Kiểm chứng | Trịnh Minh Đức | Trương Anh Đức | Rà giả định, chuẩn bị câu hỏi hành vi đã xảy ra, snapshot và mẫu survey; tổ chức thu thập sau. Báo cáo nhóm mục 3.1–3.2. |
+| W2 | CP4 — Kiểm chứng | Trịnh Minh Đức | Trương Anh Đức | Rà giả định, chuẩn bị câu hỏi hành vi đã xảy ra và mẫu snapshot; lưu kế hoạch kiểm chứng trong báo cáo nhóm, tổ chức thu thập sau. Báo cáo nhóm mục 3.1–3.2. |
 | W3 | CP4 — Research | Trương Anh Đức | Nguyễn Trọng Khiêm | Rà nguồn Adobe, Zotero, Google; phân biệt tính năng có nguồn với suy luận thiết kế; đối chiếu sổ bằng chứng. Báo cáo nhóm mục 3.3. |
 | W4 | CP5 — Quy trình trước/sau | Nguyễn Trọng Khiêm | Vũ Ngọc Tùng | Kiểm actor, input/output, bottleneck, thời gian từng bước, boundary và phương án quay về. Báo cáo nhóm mục 4. |
 | W5 | CP5 — Problem Statement v0 | Vũ Ngọc Tùng | Trương Anh Đức | Rà 6 trường v0, đối chiếu bảng before/after và bảo đảm mô tả vấn đề chưa bị thay bằng tên công cụ. Báo cáo nhóm mục 5. |
@@ -64,15 +64,15 @@ Tổng dự kiến: **480 phút công** cho 8 đầu việc, phân đều 120 ph
 
 **Đóng góp cụ thể theo phân công:**
 
-- Rà giả định, chuẩn bị câu hỏi hành vi đã xảy ra, snapshot và mẫu survey; tổ chức thu thập sau.
+- Rà giả định, chuẩn bị câu hỏi hành vi đã xảy ra và mẫu snapshot; lưu kế hoạch kiểm chứng trong báo cáo nhóm, tổ chức thu thập sau.
 - Rà No AI/Rule/Workflow/Agent, điều kiện nâng mức, dữ liệu đầu vào và điểm con người quyết định.
 - Khi hỗ trợ, kiểm tính nhất quán với báo cáo cá nhân, số liệu, nguồn và nhận xét lại phần người chính phụ trách.
 
 **Bằng chứng / sản phẩm được phân công rà soát:**
 
 - [Báo cáo cá nhân](report/individual/2A202604078_TrinhMinhDuc.md).
-- [Báo cáo nhóm](report/team/group_report.md), mục 3.1–3.2; [cp4-interview-guide.md](report/assets/cp4-interview-guide.md), [cp4-interview-snapshot-template.md](report/assets/cp4-interview-snapshot-template.md), [cp4-survey-form.md](report/assets/cp4-survey-form.md), [cp4-survey-responses-template.csv](report/assets/cp4-survey-responses-template.csv).
-- [Báo cáo nhóm](report/team/group_report.md), mục 6; [cp4-research-notes.md](report/assets/cp4-research-notes.md).
+- [Báo cáo nhóm](report/team/group_report.md), mục 3.1–3.2: assumption map, sổ bằng chứng và câu hỏi kiểm chứng; [mẫu Interview Snapshot](report/assets/cp4-interview-snapshot-template.md).
+- [Báo cáo nhóm](report/team/group_report.md), mục 6: so sánh 4 mức, AI Canvas và PAIR.
 - Commit xác nhận công việc: dùng commit do chính thành viên tạo sau khi rà soát; bản phân công không gán sẵn commit hoặc xác nhận thay.
 
 **Điều học được từ phần nhóm — gợi ý:**
@@ -98,8 +98,8 @@ Tổng dự kiến: **480 phút công** cho 8 đầu việc, phân đều 120 ph
 **Bằng chứng / sản phẩm được phân công rà soát:**
 
 - [Báo cáo cá nhân](report/individual/2A202604096_TruongAnhDuc.md).
-- [Báo cáo nhóm](report/team/group_report.md), mục 3.3; [cp4-research-notes.md](report/assets/cp4-research-notes.md), [cp4-interview-notes-internal.md](report/assets/cp4-interview-notes-internal.md).
-- [Báo cáo nhóm](report/team/group_report.md), mục 7; [cp6-eval-cases.md](report/assets/cp6-eval-cases.md).
+- [Báo cáo nhóm](report/team/group_report.md), mục 3.3: bảng research và liên kết nguồn chính thức.
+- [Báo cáo nhóm](report/team/group_report.md), mục 7: Problem Statement v1, 5 tiêu chí và 10 cặp eval được trình bày trực tiếp trong báo cáo.
 - Commit xác nhận công việc: dùng commit do chính thành viên tạo sau khi rà soát; bản phân công không gán sẵn commit hoặc xác nhận thay.
 
 **Điều học được từ phần nhóm — gợi ý:**
@@ -125,8 +125,8 @@ Tổng dự kiến: **480 phút công** cho 8 đầu việc, phân đều 120 ph
 **Bằng chứng / sản phẩm được phân công rà soát:**
 
 - [Báo cáo cá nhân](report/individual/2A202604106_VuNgocTung.md).
-- [Báo cáo nhóm](report/team/group_report.md), mục 2; [cp3-opportunity-tree.png](report/assets/cp3-opportunity-tree.png), [cp3-opportunity-tree.mmd](report/assets/cp3-opportunity-tree.mmd).
-- [Báo cáo nhóm](report/team/group_report.md), mục 5; [cp5-workflow-current.svg](report/assets/cp5-workflow-current.svg), [cp5-workflow-future.svg](report/assets/cp5-workflow-future.svg).
+- [Báo cáo nhóm](report/team/group_report.md), mục 2; [ảnh cây opportunity](report/assets/cp3-opportunity-tree.png).
+- [Báo cáo nhóm](report/team/group_report.md), mục 4.3 và 5: before/after và Problem Statement v0; [ảnh hiện tại](report/assets/cp5-workflow-current.png), [ảnh tương lai](report/assets/cp5-workflow-future.png).
 - Commit xác nhận công việc: dùng commit do chính thành viên tạo sau khi rà soát; bản phân công không gán sẵn commit hoặc xác nhận thay.
 
 **Điều học được từ phần nhóm — gợi ý:**
@@ -152,8 +152,8 @@ Tổng dự kiến: **480 phút công** cho 8 đầu việc, phân đều 120 ph
 **Bằng chứng / sản phẩm được phân công rà soát:**
 
 - [Báo cáo cá nhân](report/individual/2A202604109_NguyenTrongKhiem.md).
-- [Báo cáo nhóm](report/team/group_report.md), mục 4; [cp5-workflow-current.png](report/assets/cp5-workflow-current.png), [cp5-workflow-future.png](report/assets/cp5-workflow-future.png), [cp5-workflow-current.mmd](report/assets/cp5-workflow-current.mmd), [cp5-workflow-future.mmd](report/assets/cp5-workflow-future.mmd).
-- [Báo cáo nhóm](report/team/group_report.md), mục 8–10; [cp6-pilot-log-template.csv](report/assets/cp6-pilot-log-template.csv), [README.md](report/assets/README.md).
+- [Báo cáo nhóm](report/team/group_report.md), mục 4; [ảnh quy trình hiện tại](report/assets/cp5-workflow-current.png), [ảnh quy trình tương lai](report/assets/cp5-workflow-future.png). Mã Mermaid nằm trực tiếp trong báo cáo.
+- [Báo cáo nhóm](report/team/group_report.md), mục 8–10: 4 rủi ro, kế hoạch pilot, ngưỡng dừng và giới hạn; chưa có nhật ký pilot thực tế.
 - Commit xác nhận công việc: dùng commit do chính thành viên tạo sau khi rà soát; bản phân công không gán sẵn commit hoặc xác nhận thay.
 
 **Điều học được từ phần nhóm — gợi ý:**
@@ -161,9 +161,22 @@ Tổng dự kiến: **480 phút công** cho 8 đầu việc, phân đều 120 ph
 - Phải tính cả công chuẩn bị, kiểm, sửa và fallback khi so sánh thời gian.
 - Not Yet là kết luận phù hợp khi dữ liệu và tính tiện dụng còn thiếu bằng chứng.
 
+## Tài liệu phụ hiện có
+
+Bảng dưới liệt kê các sản phẩm còn trong thư mục assets để đối chiếu bằng chứng công việc.
+
+| Tài liệu | Vị trí | Dùng cho |
+|---|---|---|
+| Ảnh cây opportunity | [cp3-opportunity-tree.png](report/assets/cp3-opportunity-tree.png) | W1 — cluster, OST và shortlist. |
+| Ảnh quy trình hiện tại | [cp5-workflow-current.png](report/assets/cp5-workflow-current.png) | W4, W5 — quy trình, mô hình thời gian và before/after. |
+| Ảnh quy trình tương lai | [cp5-workflow-future.png](report/assets/cp5-workflow-future.png) | W4, W5 — bước kiểm của con người và phương án quay về. |
+| Mẫu Interview Snapshot | [cp4-interview-snapshot-template.md](report/assets/cp4-interview-snapshot-template.md) | W2 — chuẩn bị hồ sơ kiểm chứng, chưa phải kết quả phỏng vấn. |
+
+Hướng dẫn thư mục nằm trong [assets/README.md](report/assets/README.md). Sơ đồ Mermaid, bảng research, 10 cặp eval và kế hoạch pilot được tham chiếu trực tiếp trong [báo cáo nhóm](report/team/group_report.md). Các liên kết đến SVG, file Mermaid riêng, ghi chú research, bộ eval riêng và CSV đã xóa được bỏ khỏi TEAM.md.
+
 ## Cách phối hợp
 
 1. Người chính rà nội dung và số liệu của đầu việc; người hỗ trợ kiểm chéo theo các nguồn được dẫn.
 2. Giữ số đo, ước lượng, mục tiêu và kết quả thực tế tách biệt; chỉ điền dữ liệu khảo sát/phỏng vấn sau khi thu thập.
-3. Trước khi chốt bản nộp, kiểm ảnh, Mermaid, liên kết và tính thống nhất của quyết định Not Yet.
+3. Trước khi chốt bản nộp, kiểm các ảnh còn lưu, Mermaid nhúng trong báo cáo, liên kết và tính thống nhất của quyết định Not Yet.
 4. Mỗi thành viên tự xác nhận phần đóng góp và bài học của mình bằng tài khoản GitHub; không dùng phân công dự kiến làm bằng chứng hoạt động đã diễn ra.

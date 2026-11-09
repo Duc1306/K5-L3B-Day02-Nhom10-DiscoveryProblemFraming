@@ -145,7 +145,7 @@ Thang “đã có bằng chứng”: 1 = chưa có dữ liệu phù hợp; 5 = c
 
 ### 3.2. Bằng chứng hiện có và kế hoạch kiểm chứng
 
-Tài liệu phụ: [hướng dẫn hỏi](../assets/cp4-interview-guide.md), [mẫu snapshot](../assets/cp4-interview-snapshot-template.md), [ghi chú nội bộ](../assets/cp4-interview-notes-internal.md), [mẫu survey](../assets/cp4-survey-form.md) và [CSV phản hồi trống](../assets/cp4-survey-responses-template.csv). Chưa có ảnh kết quả survey hoặc phỏng vấn ngoài nhóm.
+
 
 #### 3.2.1. Sổ bằng chứng
 
@@ -200,7 +200,7 @@ Mỗi buổi ghi snapshot riêng với lời nói nguyên văn, hành vi, workar
 
 ### 3.3. Research giải pháp đã có
 
-[Bản ghi chú research lưu trong assets](../assets/cp4-research-notes.md).
+
 
 Các link dưới đây đã được mở kiểm tra ngày 09/11/2026. Nội dung “bài học” là suy luận thiết kế của bản báo cáo; tính năng công cụ không chứng minh giải pháp sẽ đạt metric của nhóm.
 
@@ -224,7 +224,7 @@ Bảng dưới dùng **mô hình 90 phút** nằm trong khoảng tự thuật c�
 
 ![Quy trình hiện tại — mô hình 90 phút](../assets/cp5-workflow-current.png)
 
-[Bản SVG](../assets/cp5-workflow-current.svg) · [Nguồn Mermaid](../assets/cp5-workflow-current.mmd)
+
 
 <details>
 <summary>Xem sơ đồ Mermaid có thể chỉnh sửa</summary>
@@ -268,7 +268,7 @@ Mỗi nguồn có mã riêng, tên file, phiên bản được người học ch
 
 ![Quy trình tương lai — dự toán và điểm con người kiểm nguồn](../assets/cp5-workflow-future.png)
 
-[Bản SVG](../assets/cp5-workflow-future.svg) · [Nguồn Mermaid](../assets/cp5-workflow-future.mmd)
+
 
 <details>
 <summary>Xem sơ đồ Mermaid có thể chỉnh sửa</summary>
