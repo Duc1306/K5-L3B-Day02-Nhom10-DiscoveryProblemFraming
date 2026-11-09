@@ -33,144 +33,133 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 ## 3. Top 3 Problem Cards + quy trình nháp (CP2)
 
-> Nguồn thời gian: tổng 60–120 phút và 15–20 phút là thông tin tôi đã cung cấp ở CP1. Các số phút từng bước dưới đây là phân bổ minh họa do AI đề xuất, chưa phải số đo hoặc ước lượng từ trải nghiệm của tôi. Tôi cần thay bằng thời gian từ lần thực hiện thực tế trước khi chốt CP2. Target 45 phút và 10 phút vẫn là mục tiêu đề xuất.
-
 ### Bảng chọn top 3
 
-| Rank | Problem                           | Vì sao chọn                                                                                                                                            | Điều còn chưa chắc                                                                                                                                |
-| ---: | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-|    1 | Tổng hợp báo cáo nhóm (CP1 #3)    | Mất khoảng 1–2 giờ mỗi lần, ảnh hưởng đến bài nộp chung của nhóm 5 người. Có thể mô tả rõ các bước ghép nội dung, sửa định dạng và bổ sung phần thiếu. | Chưa biết chỉnh định dạng hay rà nội dung trùng, thiếu là bước mất nhiều thời gian nhất. Một tài liệu và mẫu chung có đủ giải quyết vấn đề không? |
-|    2 | Tổng hợp tài liệu ôn tập (CP1 #2) | Lần gần nhất cần xử lý 6–8 tài liệu trong khoảng 1–2 giờ. Có thể đo thời gian chuẩn bị tài liệu và kiểm tra những nội dung bị bỏ sót.                  | Chưa tách được thời gian tìm tài liệu, đọc để chọn ý và tổng hợp. Chưa có tiêu chí rõ để xác định nội dung trọng tâm.                             |
-|    3 | Quản lý deadline bài tập (CP1 #1) | Lặp lại hằng tuần với 5–6 môn học, mất khoảng 15–20 phút để kiểm tra và ghi lại. Đã có lần tôi biết lịch nộp muộn vì tin nhắn bị trôi.                 | Chưa biết phần lớn thời gian nằm ở tìm thông báo hay ghi lại deadline. Chưa kiểm tra hiệu quả của việc ghi tập trung và nhắc lịch.                |
+| Rank | Problem                           | Vì sao chọn                                                                                                 | Điều còn chưa chắc                                                              |
+| ---: | --------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+|    1 | Tổng hợp báo cáo nhóm (CP1 #3)    | Tôi thường mất 1–2 giờ để ghép bài, sửa định dạng và xử lý nội dung thiếu hoặc trùng của nhóm 5 người.      | Chưa rõ chỉnh định dạng hay rà nội dung là bước mất nhiều thời gian nhất.       |
+|    2 | Tổng hợp tài liệu ôn tập (CP1 #2) | Lần gần nhất tôi mất 1–2 giờ để tìm và tổng hợp nội dung từ 6–8 tài liệu.                                   | Cần phân biệt khó khăn do thông tin rải rác với khó khăn do chưa hiểu bài.      |
+|    3 | Quản lý deadline bài tập (CP1 #1) | Tôi mất 15–20 phút mỗi tuần để kiểm tra thông báo của 5–6 môn, từng biết lịch nộp muộn vì tin nhắn bị trôi. | Chưa rõ việc dùng một bảng theo dõi và nhắc lịch có giải quyết đủ vấn đề không. |
 
 ### Problem Card #1 — Tổng hợp báo cáo nhóm
 
-| Trường                                    | Nội dung                                                                                                                                                                                                                                                                                       |
-| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Job Story                                 | Khi các thành viên gửi phần bài làm riêng, tôi muốn tổng hợp thành một báo cáo thống nhất, để nhóm nộp bài đầy đủ và đúng định dạng.                                                                                                                                                           |
-| Actor                                     | Tôi, người tổng hợp báo cáo trong nhóm bài tập 5 thành viên đã nêu ở CP1.                                                                                                                                                                                                                      |
-| Thời điểm / bối cảnh                      | Khi các thành viên gửi phần bài làm qua Google Docs hoặc Word và cần ghép thành một bản nộp chung.                                                                                                                                                                                             |
-| Quy trình hiện tại (3–7 bước)             | Bản nháp 6 bước: 1. Nhận bài của các thành viên → 2. Ghép vào một tài liệu → 3. Thống nhất font chữ và căn lề → 4. Rà nội dung trùng, thiếu → 5. Liên hệ bổ sung nếu cần → 6. Kiểm tra bản cuối.                                                                                               |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Giả thuyết: bước 4, rà nội dung trùng và thiếu. Phân bổ minh họa của AI dành 25 phút cho bước này; đây chưa phải số liệu từ trải nghiệm của tôi. Căn cứ CP1 là có lúc phải liên hệ thành viên để bổ sung. Tôi cần xác nhận thời gian và so sánh với bước chỉnh định dạng. |
-| Impact (nếu không giải thì sao)           | Tôi mất khoảng 60–120 phút cho một lần tổng hợp. Việc phải bổ sung nội dung khiến bản báo cáo chưa thể hoàn tất ngay; có nguy cơ thiếu mục hoặc không thống nhất định dạng nếu kiểm tra vội.                                                                                                   |
-| Success metric (baseline → target)        | Baseline theo CP1: khoảng 60–120 phút/báo cáo. Target đề xuất: không quá 45 phút/báo cáo, đủ các mục theo đề bài và thống nhất định dạng. Cách đo: ghi giờ từ khi bắt đầu tổng hợp đến khi hoàn tất bản cuối, ghi riêng thời gian chờ thành viên bổ sung, rồi đối chiếu với checklist yêu cầu. |
-| Phương án không dùng AI                   | Dùng một Google Docs chung từ đầu, thống nhất mẫu định dạng, chia sẵn mục và giao người phụ trách từng mục. Dùng checklist để rà phần thiếu, trùng trước khi chốt bài.                                                                                                                         |
-| Giả thuyết về AI (nếu có)                 | Nếu mẫu chung vẫn chưa đủ, AI có thể gợi ý những đoạn có khả năng trùng hoặc lệch chủ đề trong bản đã ghép. Tôi đối chiếu với đề bài và tự quyết định chỉnh sửa; AI không tự xóa nội dung hoặc nộp bài.                                                                                        |
-| Cảm nhận nhanh                            | No AI trước. Chỉ cân nhắc Workflow nếu việc dùng mẫu chung vẫn không giải quyết được phần rà nội dung.                                                                                                                                                                                         |
+| Trường                                    | Nội dung                                                                                                                                                                                                  |
+| ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Job Story                                 | Khi các thành viên gửi phần bài làm riêng, tôi muốn tổng hợp thành một báo cáo thống nhất, để nhóm nộp bài đầy đủ và đúng định dạng.                                                                      |
+| Actor                                     | Tôi, người tổng hợp báo cáo của nhóm bài tập 5 thành viên.                                                                                                                                                |
+| Thời điểm / bối cảnh                      | Khi các thành viên gửi phần bài qua Google Docs hoặc Word để ghép thành một bản nộp chung.                                                                                                                |
+| Quy trình hiện tại (3–7 bước)             | 1. Nhận bài → 2. Ghép nội dung → 3. Sửa font và căn lề → 4. Rà nội dung trùng, thiếu → 5. Liên hệ và cập nhật phần bổ sung nếu cần → 6. Kiểm tra bản cuối.                                                |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Dự kiến là bước 4, rà nội dung trùng và thiếu, với mức tham khảo 25 phút. Tôi cần đối chiếu thời gian thực tế với bước chỉnh định dạng để xác định bước nghẽn chính.                                      |
+| Impact (nếu không giải thì sao)           | Tôi mất khoảng 60–120 phút mỗi lần tổng hợp. Khi thiếu nội dung, tôi phải liên hệ lại thành viên nên chưa thể hoàn tất bản báo cáo ngay.                                                                  |
+| Success metric (baseline → target)        | Từ khoảng 60–120 phút xuống không quá 45 phút/báo cáo, vẫn đủ mục theo đề bài và thống nhất định dạng. Tôi sẽ ghi thời gian làm, tách riêng thời gian chờ bổ sung và dùng checklist để kiểm tra bản cuối. |
+| Phương án không dùng AI                   | Tôi dùng một Google Docs chung, thống nhất mẫu định dạng từ đầu, chia sẵn mục và giao người phụ trách. Trước khi chốt bài, nhóm kiểm tra phần thiếu, trùng theo checklist.                                |
+| Giả thuyết về AI (nếu có)                 | Hỗ trợ đánh dấu đoạn có thể trùng hoặc lệch chủ đề. Tôi đối chiếu với đề bài và quyết định chỉnh sửa, không giao quyền tự xóa nội dung hoặc nộp bài.                                                      |
+| Cảm nhận nhanh                            | No AI trước. Tôi sẽ thử mẫu chung và checklist rồi mới cân nhắc Workflow nếu vẫn khó rà nội dung.                                                                                                         |
 
 Quy trình nháp hiện tại:
 
 ```text
 TỔNG THEO CP1: khoảng 60–120 phút/báo cáo.
 
-[1. Nhận bài] → [2. Ghép nội dung] → [3. Sửa font, căn lề]
-→ [4. Rà nội dung trùng, thiếu] ← BOTTLENECK GIẢ THUYẾT
-→ [5. Liên hệ và cập nhật phần bổ sung nếu thiếu; bỏ qua nếu đủ]
-→ [6. Kiểm tra bản cuối]
+[Nhận bài] → [Ghép nội dung] → [Sửa font, căn lề]
+→ [Rà nội dung trùng, thiếu] ← BƯỚC NGHẼN CẦN XÁC NHẬN
+→ [Liên hệ và cập nhật phần bổ sung nếu thiếu]
+→ [Kiểm tra bản cuối]
 ```
 
-| Bước | Thời gian minh họa do AI đề xuất (phút) |
-| --- | ---: |
-| 1. Nhận bài | 5 |
-| 2. Ghép nội dung | 15 |
-| 3. Sửa font, căn lề | 20 |
-| 4. Rà nội dung trùng, thiếu | 25 |
-| 5. Liên hệ và cập nhật phần bổ sung nếu thiếu | 15 |
-| 6. Kiểm tra bản cuối | 10 |
-| **Tổng minh họa, chưa xác nhận** | **90** |
-
-Phương án minh họa này xét trường hợp có phần cần bổ sung, chưa tính thời gian chờ phản hồi. Nếu không có bước 5, tổng minh họa là 75 phút. Chưa biết tổng thời gian ở CP1 có bao gồm thời gian chờ hay không; tôi cần xác nhận để so sánh baseline và target trên cùng cách tính.
+| Bước                                          | Thời gian tham khảo (phút) |
+| --------------------------------------------- | -------------------------: |
+| 1. Nhận bài                                   |                          5 |
+| 2. Ghép nội dung                              |                         15 |
+| 3. Sửa font, căn lề                           |                         20 |
+| 4. Rà nội dung trùng, thiếu                   |                         25 |
+| 5. Liên hệ và cập nhật phần bổ sung nếu thiếu |                         15 |
+| 6. Kiểm tra bản cuối                          |                         10 |
+| **Tổng tham khảo**                            |                     **90** |
 
 ### Problem Card #2 — Tổng hợp tài liệu ôn tập
 
-| Trường                                    | Nội dung                                                                                                                                                                                                                                                                                                                                       |
-| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Job Story                                 | Khi chuẩn bị kiểm tra, tôi muốn tìm được nội dung trọng tâm từ slide, ghi chép và bài tập, để ôn đủ kiến thức trong thời gian còn lại.                                                                                                                                                                                                         |
-| Actor                                     | Tôi, sinh viên đang chuẩn bị tài liệu cho một lần ôn kiểm tra.                                                                                                                                                                                                                                                                                 |
-| Thời điểm / bối cảnh                      | Trước kỳ kiểm tra, khi kiến thức nằm trong nhiều file slide, tài liệu PDF và ghi chép. Lần gần nhất tôi cần xem lại khoảng 6–8 tài liệu.                                                                                                                                                                                                       |
-| Quy trình hiện tại (3–7 bước)             | Bản nháp 5 bước: 1. Tìm các slide, PDF và ghi chép → 2. Mở, đọc lại từng tài liệu → 3. Chọn các ý cần ôn → 4. Gom thành một bản ghi chú → 5. Đối chiếu lại các tài liệu để tìm phần bỏ sót.                                                                                                                                                    |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Giả thuyết: bước 3, chọn các ý cần ôn. Phân bổ minh họa của AI dành 30 phút cho bước này; chưa có số đo hoặc ước lượng cá nhân để xác nhận. Tôi cần phân biệt khó khăn do chọn lọc thông tin với khó khăn do chưa hiểu kiến thức. |
-| Impact (nếu không giải thì sao)           | Lần gần nhất tôi mất khoảng 60–120 phút để tìm kiếm, chọn lọc và tổng hợp. Nội dung rải rác khiến tôi dễ bỏ sót và còn ít thời gian hơn cho việc luyện tập.                                                                                                                                                                                    |
-| Success metric (baseline → target)        | Baseline theo CP1: khoảng 60–120 phút để chuẩn bị tài liệu ôn tập. Target đề xuất: không quá 45 phút với số lượng 6–8 tài liệu tương đương. Cách đo: ghi thời gian tìm và tổng hợp, tách khỏi thời gian học và làm bài; đối chiếu bản tổng hợp với danh sách chủ đề cần ôn đã xác định trước, mỗi ý ghi rõ tài liệu và trang hoặc slide nguồn. |
-| Phương án không dùng AI                   | Gom tài liệu vào một thư mục, đặt tên theo chủ đề và tự lập dàn ý ôn tập. Ghi nguồn của từng ý ngay khi đọc để dễ quay lại kiểm tra.                                                                                                                                                                                                           |
-| Giả thuyết về AI (nếu có)                 | AI có thể gợi ý dàn ý theo chủ đề từ tài liệu tôi cung cấp, kèm vị trí nguồn. Tôi kiểm tra từng ý với bản gốc, tự chốt phạm vi ôn; AI không tự bổ sung kiến thức không có trong tài liệu như thể đó là nội dung môn học.                                                                                                                       |
-| Cảm nhận nhanh                            | Workflow là giả thuyết nếu khó khăn chính nằm ở tổng hợp thông tin. Nếu khó khăn chính là hiểu bài, cần xem lại problem và metric trước khi chọn mức can thiệp.                                                                                                                                                                                |
+| Trường                                    | Nội dung                                                                                                                                                                                                                  |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Job Story                                 | Khi chuẩn bị kiểm tra, tôi muốn tìm được nội dung trọng tâm từ slide, ghi chép và bài tập, để ôn đủ kiến thức trong thời gian còn lại.                                                                                    |
+| Actor                                     | Tôi, sinh viên đang chuẩn bị tài liệu ôn kiểm tra.                                                                                                                                                                        |
+| Thời điểm / bối cảnh                      | Trước kỳ kiểm tra, khi kiến thức nằm rải rác trong slide, PDF và ghi chép. Lần gần nhất tôi xem lại khoảng 6–8 tài liệu.                                                                                                  |
+| Quy trình hiện tại (3–7 bước)             | 1. Tìm tài liệu → 2. Mở và đọc lại → 3. Chọn ý cần ôn → 4. Gom ghi chú → 5. Đối chiếu phần còn thiếu.                                                                                                                     |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Dự kiến là bước 3, chọn ý cần ôn, với mức tham khảo 30 phút. Tôi cần kiểm tra xem thời gian chủ yếu dành cho chọn lọc nội dung hay tìm hiểu kiến thức chưa nắm rõ.                                                        |
+| Impact (nếu không giải thì sao)           | Lần gần nhất tôi mất khoảng 60–120 phút để tìm và tổng hợp. Nội dung rải rác khiến tôi dễ bỏ sót kiến thức cần ôn.                                                                                                        |
+| Success metric (baseline → target)        | Từ khoảng 60–120 phút xuống không quá 45 phút để chuẩn bị tài liệu với khối lượng 6–8 file tương đương. Tôi sẽ ghi thời gian tìm và tổng hợp riêng với thời gian học, đối chiếu đủ chủ đề cần ôn và ghi nguồn của từng ý. |
+| Phương án không dùng AI                   | Tôi gom tài liệu vào một thư mục, đặt tên theo chủ đề và tự lập dàn ý. Khi ghi chú, tôi ghi kèm tên tài liệu, số trang hoặc slide để dễ kiểm tra lại.                                                                     |
+| Giả thuyết về AI (nếu có)                 | Hỗ trợ gom các ý theo chủ đề và tạo dàn ý kèm vị trí nguồn. Tôi kiểm tra với tài liệu gốc, tự chốt nội dung ôn và loại bỏ những ý không có căn cứ.                                                                        |
+| Cảm nhận nhanh                            | Có thể thử Workflow nếu khó khăn nằm ở tổng hợp thông tin. Nếu nguyên nhân là chưa hiểu bài, tôi cần điều chỉnh cách học và xem lại bài toán.                                                                             |
 
 Quy trình nháp hiện tại:
 
 ```text
 TỔNG THEO CP1: khoảng 60–120 phút/lần với 6–8 tài liệu.
 
-[1. Tìm tài liệu] → [2. Mở và đọc lại]
-→ [3. Chọn ý cần ôn] ← BOTTLENECK GIẢ THUYẾT
-→ [4. Gom ghi chú] → [5. Đối chiếu phần còn thiếu]
+[Tìm tài liệu] → [Mở và đọc lại]
+→ [Chọn ý cần ôn] ← BƯỚC NGHẼN CẦN XÁC NHẬN
+→ [Gom ghi chú] → [Đối chiếu phần còn thiếu]
 ```
 
-| Bước | Thời gian minh họa do AI đề xuất (phút) |
-| --- | ---: |
-| 1. Tìm tài liệu | 10 |
-| 2. Mở và đọc lại | 20 |
-| 3. Chọn ý cần ôn | 30 |
-| 4. Gom ghi chú | 20 |
-| 5. Đối chiếu phần còn thiếu | 10 |
-| **Tổng minh họa, chưa xác nhận** | **90** |
-
-Phạm vi minh họa là chuẩn bị tài liệu ôn tập, không bao gồm thời gian học thuộc hoặc làm bài luyện tập. Tôi cần xác nhận phạm vi này có khớp với tổng thời gian đã nêu ở CP1 không.
+| Bước                        | Thời gian tham khảo (phút) |
+| --------------------------- | -------------------------: |
+| 1. Tìm tài liệu             |                         10 |
+| 2. Mở và đọc lại            |                         20 |
+| 3. Chọn ý cần ôn            |                         30 |
+| 4. Gom ghi chú              |                         20 |
+| 5. Đối chiếu phần còn thiếu |                         10 |
+| **Tổng tham khảo**          |                     **90** |
 
 ### Problem Card #3 — Quản lý deadline bài tập
 
-| Trường                                    | Nội dung                                                                                                                                                                                                                                                                                                       |
-| ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Job Story                                 | Khi đầu tuần có nhiều bài tập ở các môn khác nhau, tôi muốn biết đầy đủ deadline và yêu cầu nộp bài, để sắp xếp thời gian và tránh nộp thiếu.                                                                                                                                                                  |
-| Actor                                     | Tôi, sinh viên theo dõi bài tập của khoảng 5–6 môn học trong tuần.                                                                                                                                                                                                                                             |
-| Thời điểm / bối cảnh                      | Khi cần cập nhật bài tập và hạn nộp từ Zalo, Google Classroom và thông báo của giảng viên.                                                                                                                                                                                                                     |
-| Quy trình hiện tại (3–7 bước)             | Bản nháp 5 bước: 1. Kiểm tra các kênh thông báo → 2. Tìm lại thông báo bài tập → 3. Đọc yêu cầu và xác định hạn nộp → 4. Ghi lại deadline → 5. Kiểm tra lại khi có thay đổi.                                                                                                                                   |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Giả thuyết: bước 2, tìm lại thông báo trong nhóm chat. Phân bổ minh họa của AI dành 7 phút/tuần cho bước này; chưa phải số liệu tôi xác nhận. Căn cứ CP1 là đã có lần biết lịch nộp muộn vì tin nhắn bị trôi. |
-| Impact (nếu không giải thì sao)           | Tôi mất khoảng 15–20 phút mỗi tuần để kiểm tra và ghi lại deadline. Việc biết lịch nộp muộn làm giảm thời gian chuẩn bị và có nguy cơ bỏ sót yêu cầu; chưa có số liệu về số lần nộp trễ.                                                                                                                       |
-| Success metric (baseline → target)        | Baseline theo CP1: khoảng 15–20 phút/tuần cho 5–6 môn. Target đề xuất: không quá 10 phút/tuần với khối lượng tương đương, ghi đúng tên bài, hạn nộp và yêu cầu trong các nguồn đã kiểm tra. Cách đo: ghi tổng thời gian cập nhật trong tuần, đối chiếu từng mục với thông báo gốc trước khi kết thúc kiểm tra. |
-| Phương án không dùng AI                   | Dùng một bảng theo dõi gồm môn học, bài tập, hạn nộp, link thông báo và trạng thái. Cập nhật ngay khi nhận thông báo, đặt nhắc lịch bằng công cụ có sẵn và dành thời điểm cố định để kiểm tra các kênh.                                                                                                        |
-| Giả thuyết về AI (nếu có)                 | Chưa cần AI ở bước đầu. Nếu sau khi dùng bảng chung vẫn tốn nhiều thời gian đọc thông báo, có thể thử AI trích xuất tên bài và hạn nộp từ nội dung tôi cung cấp. Tôi xác nhận lại với bản gốc, nhất là khi ngày giờ không rõ; AI không tự đặt deadline.                                                        |
-| Cảm nhận nhanh                            | No AI trước; có thể dùng Rule cho nhắc lịch. Chưa có bằng chứng cần Workflow hoặc Agent.                                                                                                                                                                                                                       |
+| Trường                                    | Nội dung                                                                                                                                                                               |
+| ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Job Story                                 | Khi đầu tuần có nhiều bài tập ở các môn khác nhau, tôi muốn biết đầy đủ deadline và yêu cầu nộp bài, để sắp xếp thời gian và tránh nộp thiếu.                                          |
+| Actor                                     | Tôi, sinh viên theo dõi bài tập của khoảng 5–6 môn mỗi tuần.                                                                                                                           |
+| Thời điểm / bối cảnh                      | Khi cập nhật bài tập từ Zalo, Google Classroom và thông báo của giảng viên.                                                                                                            |
+| Quy trình hiện tại (3–7 bước)             | 1. Kiểm tra các kênh → 2. Tìm lại thông báo → 3. Đọc yêu cầu và hạn nộp → 4. Ghi lại deadline → 5. Kiểm tra khi có thay đổi.                                                           |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Dự kiến là bước 2, tìm lại thông báo, với mức tham khảo 7 phút/tuần. Tôi từng biết lịch nộp muộn vì tin nhắn bị trôi nhưng cần ghi nhận thêm thời gian để xác nhận bước nghẽn.         |
+| Impact (nếu không giải thì sao)           | Tôi mất khoảng 15–20 phút mỗi tuần để kiểm tra và ghi lại. Biết lịch nộp muộn khiến tôi còn ít thời gian chuẩn bị hơn; chưa có số liệu về số lần nộp trễ.                              |
+| Success metric (baseline → target)        | Từ khoảng 15–20 phút xuống không quá 10 phút/tuần với khối lượng 5–6 môn tương đương. Tôi sẽ ghi tổng thời gian cập nhật và đối chiếu tên bài, hạn nộp, yêu cầu với các thông báo gốc. |
+| Phương án không dùng AI                   | Tôi dùng một bảng theo dõi gồm môn, bài tập, hạn nộp, link thông báo và trạng thái. Tôi cập nhật khi nhận thông báo, đặt nhắc lịch và dành giờ cố định để kiểm tra các kênh.           |
+| Giả thuyết về AI (nếu có)                 | Chưa cần ở bước đầu. Nếu việc đọc thông báo vẫn mất nhiều thời gian, có thể thử trích xuất tên bài và hạn nộp từ nội dung được cung cấp; tôi kiểm tra lại ngày giờ với bản gốc.        |
+| Cảm nhận nhanh                            | No AI trước; Rule có thể hỗ trợ nhắc lịch. Chưa có căn cứ cần Workflow hoặc Agent.                                                                                                     |
 
 Quy trình nháp hiện tại:
 
 ```text
 TỔNG THEO CP1: khoảng 15–20 phút/tuần với 5–6 môn.
 
-[1. Kiểm tra các kênh]
-→ [2. Tìm lại thông báo] ← BOTTLENECK GIẢ THUYẾT
-→ [3. Đọc yêu cầu và hạn nộp]
-→ [4. Ghi lại deadline] → [5. Kiểm tra khi có thay đổi]
+[Kiểm tra các kênh]
+→ [Tìm lại thông báo] ← BƯỚC NGHẼN CẦN XÁC NHẬN
+→ [Đọc yêu cầu và hạn nộp]
+→ [Ghi lại deadline] → [Kiểm tra khi có thay đổi]
 ```
 
-| Bước | Thời gian minh họa do AI đề xuất (phút/tuần) |
-| --- | ---: |
-| 1. Kiểm tra các kênh | 3 |
-| 2. Tìm lại thông báo | 7 |
-| 3. Đọc yêu cầu và hạn nộp | 5 |
-| 4. Ghi lại deadline | 3 |
-| 5. Kiểm tra khi có thay đổi | 2 |
-| **Tổng minh họa, chưa xác nhận** | **20** |
-
-Các số trên minh họa tổng thời gian cộng dồn trong một tuần. Thời gian kiểm tra lại phụ thuộc việc có thông báo thay đổi; tôi cần ghi nhận từ tuần thực tế.
+| Bước                        | Thời gian tham khảo (phút/tuần) |
+| --------------------------- | ------------------------------: |
+| 1. Kiểm tra các kênh        |                               3 |
+| 2. Tìm lại thông báo        |                               7 |
+| 3. Đọc yêu cầu và hạn nộp   |                               5 |
+| 4. Ghi lại deadline         |                               3 |
+| 5. Kiểm tra khi có thay đổi |                               2 |
+| **Tổng tham khảo**          |                          **20** |
 
 ### Card muốn pitch nhất
 
-- Card số: 1 — Tổng hợp báo cáo nhóm (đề xuất để tôi chốt trước khi pitch).
-- Vì sao: Tôi đã có tình huống cụ thể với nhóm 5 người và tổng thời gian khoảng 1–2 giờ. Có thể so sánh cách dùng một tài liệu, mẫu chung với việc dùng AI hỗ trợ rà nội dung, rồi kiểm tra cách nào đủ giải quyết vấn đề.
-- Câu hỏi muốn nhóm phản biện: Mẫu tài liệu chung và checklist có đủ giảm thời gian tổng hợp không? Bước nghẽn thật là rà nội dung hay chỉnh định dạng? Nếu dùng AI, làm sao kiểm tra được nội dung bị bỏ sót hoặc bị đề xuất xóa nhầm?
+- Card số: 1 — Tổng hợp báo cáo nhóm.
+- Vì sao: Tôi có tình huống cụ thể với nhóm 5 người và tổng thời gian khoảng 1–2 giờ. Tôi muốn kiểm tra xem dùng tài liệu chung, mẫu thống nhất và checklist có đủ giảm thời gian tổng hợp không.
+- Câu hỏi muốn nhóm phản biện: Bước nghẽn chính là rà nội dung hay chỉnh định dạng? Mẫu chung có đủ giải quyết vấn đề không? Làm sao kiểm tra báo cáo không bị thiếu ý sau khi chỉnh sửa?
 
 ### AI đã phản biện card thế nào
 
-| Điểm yếu AI chỉ ra                                                                                                  | Đồng ý?                                               | Đã sửa gì                                                                                                                                                      |
-| ------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Thời gian từng bước là phân bổ minh họa do AI đề xuất, chưa đủ cơ sở khẳng định bottleneck thực tế. | Tôi cần xác nhận sau khi đối chiếu thực tế. | Đã thêm bảng thời gian minh họa và ghi rõ nguồn AI; giữ riêng tổng thời gian tôi cung cấp ở CP1. Tôi vẫn cần bổ sung số đo hoặc ước lượng từ lần làm thực tế. |
-| Card #1 có thể được giải quyết bằng tài liệu và mẫu chung, chưa có bằng chứng cần AI.                               | Tôi cần kiểm tra phương án không dùng AI.             | Bổ sung phương án No AI và chỉ giữ AI rà nội dung như một giả thuyết để so sánh.                                                                               |
-| Card #2 cần phân biệt thời gian chuẩn bị tài liệu với thời gian học; tổng hợp nhanh chưa chứng minh ôn tập tốt hơn. | Tôi cần xác nhận cách đo và phạm vi ôn.               | Tách thời gian chuẩn bị khỏi thời gian học, bổ sung đối chiếu chủ đề và vị trí nguồn của từng ý. Không dùng tốc độ tổng hợp để kết luận điểm kiểm tra sẽ tăng. |
-| Card #3 có một lần biết thông báo muộn, chưa đủ để kết luận thường xuyên nộp trễ.                                   | Tôi cần bổ sung dữ liệu nếu muốn đánh giá số lần trễ. | Giữ đúng bằng chứng biết lịch muộn; ghi nộp trễ là nguy cơ, không viết thành kết quả đã xảy ra.                                                                |
-| Các target 45 phút và 10 phút chưa được thử nghiệm.                                                                 | Tôi cần tự chốt mức phù hợp.                          | Ghi rõ đây là mục tiêu đề xuất và bổ sung cách đo, tiêu chí kiểm tra chất lượng cho từng card.                                                                 |
-
-Việc tôi cần bổ sung trước khi chốt CP2: thay các số minh họa bằng thời gian từ lần thực hiện gần nhất (nếu ước lượng thì ghi rõ), cộng lại tổng, xác định bottleneck theo thời gian đã xác nhận và tự điền quyết định đồng ý hoặc không đồng ý với từng phản biện. Nếu chưa có dữ liệu cho một bước, giữ trạng thái chưa có dữ liệu; không chuyển số AI đề xuất thành bằng chứng cá nhân.
+| Điểm yếu được chỉ ra                                                      | Đồng ý?                             | Đã sửa gì                                                                                       |
+| ------------------------------------------------------------------------- | ----------------------------------- | ----------------------------------------------------------------------------------------------- |
+| Thời gian từng bước chưa được xác nhận nên chưa kết luận được bottleneck. | Cần đối chiếu thực tế.              | Tách tổng thời gian ở CP1 khỏi bảng tham khảo; giữ bước nghẽn ở mức dự kiến.                    |
+| Card #1 có thể được giải quyết bằng tài liệu và mẫu chung.                | Cần thử cách làm này.               | Ưu tiên mẫu chung và checklist trước khi cân nhắc mức can thiệp cao hơn.                        |
+| Card #2 cần phân biệt chuẩn bị tài liệu với học kiến thức.                | Cần xác nhận phạm vi đo.            | Tách hai loại thời gian, bổ sung kiểm tra chủ đề và nguồn; chưa kết luận điểm kiểm tra sẽ tăng. |
+| Card #3 chưa có dữ liệu chứng minh thường xuyên nộp trễ.                  | Cần bổ sung nếu đánh giá tỷ lệ trễ. | Giữ đúng tình huống biết lịch muộn, ghi nộp trễ là nguy cơ.                                     |
 
 ---
 
@@ -193,14 +182,14 @@ Việc tôi cần bổ sung trước khi chốt CP2: thay các số minh họa b
 
 ## 5. Dùng AI
 
-| Checkpoint                     | Tôi dùng AI để làm gì?                                                                                         | AI hữu ích ở đâu?                                                                 | AI sai hoặc hời hợt ở đâu?                                                                          | Tôi sửa gì bằng nhận định của mình?                                                                                            |
-| ------------------------------ | -------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| CP1 Scan                       | Gợi ý 5 vấn đề trong sinh hoạt sinh viên; hỗ trợ diễn đạt Job Story và định dạng bảng CP1.                     | Giúp trình bày rõ tình huống, mong muốn và kết quả của từng vấn đề.               | Các gợi ý ban đầu chưa có trải nghiệm và số liệu thực tế của tôi.                                   | Tôi bổ sung số môn học, số tài liệu, thời gian xử lý và các tình huống cụ thể đã gặp.                                          |
-| CP2 Problem Card | Nhờ AI hỗ trợ phát triển 3 bản nháp từ CP1, đề xuất quy trình, mục tiêu, bảng thời gian minh họa và phản biện. | Giúp phân biệt tổng thời gian tôi cung cấp, số phút minh họa và target; chỉ rõ dữ liệu cần bổ sung. | AI chưa biết thời gian từng bước; các số 90, 90 và 20 phút là tổng minh họa, không phải ba lần đo thực tế. Bottleneck chưa được kiểm chứng. | Chưa chốt. Tôi cần thay số minh họa bằng thời gian từ trải nghiệm thực tế, xác nhận phạm vi đo, bottleneck, target và phản hồi phù hợp. |
-| CP4 Research                   |                                                                                                                |                                                                                   |                                                                                                     |                                                                                                                                |
-| CP5 Quy trình                  |                                                                                                                |                                                                                   |                                                                                                     |                                                                                                                                |
-| CP5–6 Problem Statement        |                                                                                                                |                                                                                   |                                                                                                     |                                                                                                                                |
-| CP6 Mức can thiệp / quyết định |                                                                                                                |                                                                                   |                                                                                                     |                                                                                                                                |
+| Checkpoint                     | Tôi dùng AI để làm gì?                                                                     | AI hữu ích ở đâu?                                                   | AI sai hoặc hời hợt ở đâu?                                        | Tôi sửa gì bằng nhận định của mình?                                                           |
+| ------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------- | ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| CP1 Scan                       | Gợi ý 5 vấn đề trong sinh hoạt sinh viên; hỗ trợ diễn đạt Job Story và định dạng bảng CP1. | Giúp trình bày rõ tình huống, mong muốn và kết quả của từng vấn đề. | Các gợi ý ban đầu chưa có trải nghiệm và số liệu thực tế của tôi. | Tôi bổ sung số môn học, số tài liệu, thời gian xử lý và các tình huống cụ thể đã gặp.         |
+| CP2 Problem Card               | Hỗ trợ phát triển 3 card từ CP1, mô tả quy trình, phản biện và gợi ý phân bổ thời gian.    | Giúp làm rõ các bước, cách đo và phương án đơn giản trước.          | Các số phút từng bước là giả định, chưa được kiểm chứng.          | Tôi cần đối chiếu với lần thực hiện gần nhất, chốt thời gian, bottleneck và mục tiêu phù hợp. |
+| CP4 Research                   |                                                                                            |                                                                     |                                                                   |                                                                                               |
+| CP5 Quy trình                  |                                                                                            |                                                                     |                                                                   |                                                                                               |
+| CP5–6 Problem Statement        |                                                                                            |                                                                     |                                                                   |                                                                                               |
+| CP6 Mức can thiệp / quyết định |                                                                                            |                                                                     |                                                                   |                                                                                               |
 
 ---
 
@@ -226,4 +215,10 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 ## 7. Tài liệu tham khảo
 
--
+1. Tài liệu lab Day 02. [Worksheet — hướng dẫn chi tiết từng checkpoint](../../docs/01-worksheet.md). Hướng dẫn scan problem, chọn top 3 và trình bày Problem Card, quy trình nháp.
+2. Tài liệu lab Day 02. [Rubric](../../RUBRIC.md). Tiêu chí kiểm tra nội dung CP1, CP2 và các phần báo cáo cá nhân.
+3. Paul Adams, Intercom (2016). [How we accidentally invented Job Stories](https://www.intercom.com/blog/accidentally-invented-job-stories). Cách viết Job Story theo tình huống, mong muốn và kết quả: “Khi… tôi muốn… để…”.
+4. Design Council. [Framework for Innovation](https://www.designcouncil.org.uk/resources/framework-for-innovation/). Mô hình Double Diamond, làm cơ sở mở rộng danh sách vấn đề rồi thu hẹp để chọn vấn đề cần tìm hiểu.
+5. Anthropic (2024). [Building effective agents](https://www.anthropic.com/research/building-effective-agents). Phân biệt Workflow và Agent, ưu tiên cách giải quyết đơn giản trước khi tăng mức can thiệp.
+
+Ngày truy cập các nguồn trực tuyến: 09/11/2026.
