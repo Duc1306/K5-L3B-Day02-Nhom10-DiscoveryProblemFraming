@@ -26,7 +26,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | 4 | Cần đọc, tổng hợp nhiều thông tin | Khi sử dụng một thông tin đã tìm được, tôi muốn xác định chính xác tài liệu và vị trí chứa thông tin đó, để kiểm tra lại ngữ cảnh và nguồn | Tôi | Khi làm đồ án tốt nghiệp, tôi từng dẫn sai đường dẫn tài liệu. Do có các tệp tên giống nhau, tôi mất thêm khoảng 15 phút để kiểm tra lại |
 | 5 | Tốn thời gian | Khi tài liệu liên quan có nhiều trang, tôi muốn nhanh chóng xác định phần cần đọc, để không phải rà soát toàn bộ nội dung | Tôi | Có tài liệu dài khoảng 50–70 trang; tôi mất khoảng 15 phút để đọc/tìm nội dung liên quan |
 | 6 | Cần đọc, tổng hợp nhiều thông tin | Khi nhiều tài liệu diễn đạt nội dung liên quan theo những cách khác nhau, tôi muốn nhận ra điểm giống và khác nhau, để tổng hợp rõ ràng và tránh mất thời gian đối chiếu | Tôi | Cách diễn đạt khác nhau khiến nội dung khó tổng hợp; tôi phải dành thêm thời gian so sánh các tài liệu |
-| 7 | Pain từ người khác | Khi cần viết test case dựa trên nhiều tài liệu, tôi muốn tìm được đúng thông tin thiết kế, để hoàn thành công việc mà không phải dò qua nhiều tệp rời rạc | Một tester đồng nghiệp | Một tester đồng nghiệp tại FPT Software chia sẻ rằng khi viết test case bằng Excel, họ gặp khó khăn vì có nhiều tệp tài liệu thiết kế chi tiết rải rác, trong khi sản phẩm có nhiều màn hình liên kết với nhau |
+| 7 | Pain từ người khác | Khi cần viết test case dựa trên nhiều tài liệu, tôi muốn tìm được đúng thông tin thiết kế, để hoàn thành công việc mà không phải dò qua nhiều tệp rời rạc | Một tester đồng nghiệp | Trong trao đổi chung, một đồng nghiệp tester chia sẻ rằng khi viết test case bằng Excel, họ khó tìm đúng thông tin do tài liệu thiết kế chi tiết nằm rải rác và sản phẩm có nhiều màn hình liên kết. Đây là lời kể không chính thức, chưa được ghi nhận bằng phỏng vấn có cấu trúc |
 | 8 | Lặp lại | Khi quay lại một chủ đề đã tra cứu, tôi muốn tìm lại kết quả và tài liệu nguồn, để không phải lặp lại toàn bộ việc tìm kiếm | Tôi | Tôi từng đóng nhầm thư mục hoặc tệp khi tra cứu tài liệu đã lưu, rồi quên vị trí lưu |
 
 **Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
@@ -78,9 +78,9 @@ Thời gian từng bước và tổng thời gian: chưa đo
 | Actor | Người học tra cứu tài liệu |
 | Thời điểm / bối cảnh | Khi phải tìm một thông tin cụ thể trong nhiều tài liệu |
 | Quy trình hiện tại (3–7 bước) | Bản nháp: xác định từ khóa → mở từng file có vẻ liên quan → tìm/đọc nội dung → kiểm tra ngữ cảnh và nguồn |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Dò tìm đoạn liên quan; chưa đo riêng thời gian hoặc số file phải mở |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Dò tìm đoạn liên quan. Ước lượng chung cho việc tìm là 5–10 phút khi có ít tài liệu/tên rõ và 15–20 phút khi tài liệu nhiều/tên khó nhận biết; chưa đo riêng bước này |
 | Impact (nếu không giải thì sao) | Có thể phải xem nhiều phần không liên quan; mức độ và tần suất chưa được ghi nhận |
-| Success metric (baseline → target) | Cần ghi thời gian tìm và số file mở trong 5 tác vụ trước khi đặt target; mục tiêu thử nghiệm là giảm thời gian tìm mà vẫn xác nhận đúng đoạn nguồn |
+| Success metric (baseline → target) | Baseline sơ bộ là 5–10 phút ở tình huống dễ và 15–20 phút ở tình huống khó (ước lượng cá nhân, chưa đo có hệ thống). Ghi thời gian và số tệp mở trong ít nhất 5 tác vụ; sau đó đặt target giảm thời gian nhưng vẫn xác nhận đúng đoạn nguồn |
 | Phương án không dùng AI | Dùng mục lục, bookmark, tiêu đề nhất quán và tìm kiếm từ khóa trong file |
 | Giả thuyết về AI (nếu có) | Tìm kiếm ngữ nghĩa có thể hữu ích nếu không biết chính xác từ khóa; cần kiểm tra xem tìm kiếm văn bản có sẵn đã đủ chưa |
 | Cảm nhận nhanh | No AI / Rule trước |
@@ -101,9 +101,9 @@ Thời gian và số file của từng bước cần được quan sát lại
 | Actor | Người học cần tổng hợp thông tin từ tài liệu |
 | Thời điểm / bối cảnh | Sau khi tìm thấy các đoạn có vẻ liên quan đến yêu cầu |
 | Quy trình hiện tại (3–7 bước) | Giả thuyết: ghi các ý trích từ từng file → so sánh/loại ý trùng → tổng hợp → kiểm tra từng ý với nguồn; cần xác nhận |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Chưa có bằng chứng đo riêng cho bước tổng hợp hoặc kiểm tra nguồn |
-| Impact (nếu không giải thì sao) | Có nguy cơ bỏ sót hoặc làm sai ngữ cảnh khi ghép thông tin; chưa quan sát được hậu quả cụ thể |
-| Success metric (baseline → target) | Trước tiên ghi thời gian tổng hợp và số lỗi/ý thiếu khi đối chiếu với nguồn trên một số tác vụ; đặt target sau khi có baseline |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Kiểm tra lại nguồn khi tên tệp giống nhau; từng mất thêm khoảng 15 phút sau khi dẫn sai đường dẫn tài liệu đồ án. Đây là một sự cố cá nhân, chưa biết tần suất |
+| Impact (nếu không giải thì sao) | Có thể mất thêm thời gian xác minh và làm giảm độ tin cậy của bản tổng hợp; hiện mới có một tình huống được ghi nhận |
+| Success metric (baseline → target) | Baseline của tình huống đã gặp là khoảng 15 phút kiểm tra lại sau khi dẫn sai nguồn. Ghi thời gian và số lỗi nguồn trong ít nhất 5 tác vụ; mục tiêu thử nghiệm là không còn lỗi nguồn ở bản đã kiểm tra, đồng thời không làm tăng đáng kể thời gian xử lý |
 | Phương án không dùng AI | Bảng ghi chú với cột nội dung, tên file, trang/mục và checklist đối chiếu |
 | Giả thuyết về AI (nếu có) | Bản nháp tổng hợp có trích nguồn có thể hỗ trợ, nhưng người dùng phải kiểm tra nội dung với tài liệu gốc |
 | Cảm nhận nhanh | Chưa biết; xác nhận mức độ đau và thử quy trình ghi chú trước |
@@ -136,16 +136,16 @@ Chưa quan sát và đo riêng quy trình này
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Trình bày vấn đề tìm và tổng hợp thông tin từ nhiều tài liệu Word/PDF, gồm tình huống dẫn sai đường dẫn và thời gian tìm ước lượng | Đưa candidate cá nhân vào phần thảo luận; nhóm xem xét cùng các candidate khác |
+| Phản biện bài của bạn khác | Tôi hỏi: “Vấn đề quản lý tài chính có thực sự cần AI không, khi có thể làm thủ công và tránh rủi ro lộ dữ liệu?” Tôi góp ý AI chỉ nên hỗ trợ tạo nhóm mục và gợi ý chi tiêu, không đọc giao dịch hay thông tin cá nhân | Nêu rõ phương án thủ công và giới hạn dữ liệu cần được cân nhắc trước khi chọn AI |
+| Nhận phản biện | Tôi không nhớ có câu hỏi phản biện cụ thể nào nhận được về candidate của mình; không có thay đổi nào tôi có thể gắn với một câu hỏi như vậy | Không ghi nhận thay đổi do phản biện trực tiếp; tiếp tục chỉnh candidate dựa trên việc làm rõ gốc rễ vấn đề |
+| Gom cluster / cây OST | Sắp xếp các candidate tương tự, tham gia vẽ cây lựa chọn và chấm điểm | Giúp nhóm so sánh các vấn đề theo một hướng chung thay vì chọn ngay giải pháp |
+| Chọn candidate problem | Đề xuất vấn đề tìm và tổng hợp thông tin từ tài liệu vì cho rằng tình huống này thường gặp trong thực tế | Candidate được đưa vào hướng bài toán nhóm; báo cáo nhóm gộp thêm các góc nhìn liên quan |
+| Kiểm chứng / research | Trao đổi chung, không thực hiện survey hay phỏng vấn có cấu trúc. Tôi ước tính đã trao đổi trong các bối cảnh có khoảng 50–60 bạn học và 30–50 đồng nghiệp; đây không phải số người trả lời cùng một bộ câu hỏi | Một sinh viên nói có nhiều slide/giáo trình và không biết nên ôn phần nào; đồng nghiệp phàn nàn khó tìm đúng tài liệu giữa nhiều tài liệu và file Excel |
+| Quy trình nhóm | Tham gia mô tả các bước tìm tài liệu, khoanh vùng nội dung, ghi nguồn và tổng hợp; góp ý làm rõ điểm nghẽn | Quy trình được mô tả cụ thể hơn để đối chiếu No AI/Rule với phương án có AI |
+| Problem Statement | Góp ý xác định đúng actor, gốc rễ vấn đề, tác động, cách đo và giới hạn của giải pháp | Giúp mô tả vấn đề trước khi quyết định công cụ hoặc mức AI |
+| Mức can thiệp AI | Dùng AI để tham khảo và phản biện các phương án; ưu tiên giải pháp đơn giản, có người học kiểm tra nguồn | Đề xuất Workflow có điều kiện trong báo cáo nhóm; quyết định triển khai vẫn là Not Yet |
+| Quyết định | Đọc và góp ý candidate/Problem Statement; chưa ghi nhận phần việc trực tiếp riêng ở bảng đánh giá bốn rủi ro | Báo cáo nhóm kết luận Not Yet cho đến khi có baseline và kiểm chứng tốt hơn |
 
 ---
 
@@ -155,10 +155,10 @@ Chưa quan sát và đo riêng quy trình này
 |---|---|---|---|---|
 | CP1 Scan | Sắp xếp vấn đề tìm và tổng hợp thông tin từ tài liệu Word/PDF theo các lăng kính trong worksheet | Giúp diễn đạt Job Story và gợi ý các khía cạnh cần kiểm chứng | Có thể tách các bước trong cùng một quy trình thành nhiều problem riêng; gợi ý không thay thế bằng chứng thực tế | Bổ sung trải nghiệm cá nhân và chia sẻ từ đồng nghiệp; ghi rõ các ước lượng chưa được đo có hệ thống |
 | CP2 Problem Card | Phác thảo quy trình tra cứu/tổng hợp và xem xét cách đo metric | Gợi ý so sánh tìm kiếm thông thường với phương án có AI hỗ trợ | Bản nháp ban đầu chưa phản ánh các ước lượng thời gian và ví dụ thực tế đã bổ sung; chưa có dữ liệu đo độ chính xác khi tổng hợp | Cập nhật baseline sơ bộ bằng các khoảng ước lượng từ trải nghiệm, ghi rõ chưa đo có hệ thống và đề xuất đo ít nhất 5 tác vụ để kiểm chứng |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP4 Research | Dùng AI để gợi ý và sắp xếp các khía cạnh cần tìm hiểu về vấn đề tra cứu tài liệu | Giúp mở rộng góc nhìn và tạo câu hỏi cần kiểm tra | Gợi ý ban đầu còn chung, chưa nhắm rõ nhóm người gặp pain và bối cảnh cụ thể; trao đổi thực tế không phải khảo sát có cấu trúc | Thu hẹp đối tượng và nội dung theo trải nghiệm của bản thân, bạn học và đồng nghiệp; không coi trao đổi chung là kết quả survey/phỏng vấn |
+| CP5 Quy trình | Dùng AI để phản biện bản mô tả quy trình và gợi ý điểm nghẽn/cách đo | Hỗ trợ nhận ra cần tách bước tìm, đọc, tổng hợp và kiểm nguồn | Có thể nhảy sang giải pháp trước khi xác định nguyên nhân gốc | Tập trung mô tả nhu cầu, actor và bottleneck trước; các bước chưa quan sát được ghi là bản nháp |
+| CP5–6 Problem Statement | Dùng AI để rà soát actor, vấn đề, metric và boundary | Gợi ý cấu trúc và các câu hỏi còn thiếu | Đề xuất ban đầu còn chung, chưa tập trung đúng nhóm người có pain | Chỉnh lại theo vấn đề tra cứu tài liệu; giữ rõ việc cần đo và điều người học phải tự kiểm tra |
+| CP6 Mức can thiệp / quyết định | Dùng AI để xem xét các mức can thiệp và phản biện đề xuất | Hỗ trợ so sánh phương án đơn giản với Workflow có AI | AI có thể đề xuất giải pháp rộng hơn nhu cầu thực tế và không nêu đủ giới hạn | Ưu tiên phương án đơn giản, giới hạn AI ở tìm đoạn/soạn nháp có nguồn, giữ người học trong bước kiểm tra; theo báo cáo nhóm, quyết định hiện tại là Not Yet |
 
 ---
 
@@ -168,20 +168,37 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
+Ghi chú của tôi: học được cách suy nghĩ và đưa ra giải pháp của thành viên khác; trong buổi hôm nay, các nhóm khác đề xuất thêm chức năng thông báo lịch học/làm việc vào sản phẩm và tôi cảm thấy cần thiết.
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+Ghi chú của tôi: có solution-first; cần xác định mình đang gặp vấn đề gì, đưa ra các phương án để giải quyết, rồi tạo MVP sớm để trải nghiệm và hoàn thiện.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
+[Tự viết trải nghiệm của bạn. Nếu không nhận phản biện đáng kể hoặc không đổi ý, ghi rõ điều đó.]
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+Ghi chú của tôi: không phỏng vấn, nhưng gặp thực tế từ những người xung quanh và kể cả bản thân.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+Ghi chú của tôi: phần khó nhất khi viết Problem Statement là xác định đúng gốc rễ vấn đề.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
+Ghi chú của tôi: nếu làm lại, tôi sẽ xem xét và đưa ra các câu hỏi để tìm nguyên nhân gốc rễ của vấn đề, thay vì đi thẳng vào giải pháp.
+
+> **Cần hoàn thiện:** đây mới là ghi chú ban đầu, chưa đạt yêu cầu tối thiểu 200 từ cho 6.1–6.6. Hãy tự phát triển thành reflection bằng lời của bạn; không dùng AI để viết thay phần này.
+
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+> **Bản nháp tham khảo có AI hỗ trợ — hãy tự kiểm tra và diễn đạt lại bằng lời của mình trước khi nộp:** Nhóm tập trung vào việc sinh viên mất thời gian tìm, đối chiếu và tổng hợp thông tin từ nhiều tài liệu học tập, đồng thời khó quay lại đúng nguồn. Quy trình gồm chốt câu hỏi và bộ tài liệu, tìm đoạn liên quan, ghi nguồn, tổng hợp rồi kiểm tra lại. Baseline cần đo trên các tác vụ tương đương; mục tiêu nhóm đề xuất là giảm thời gian nhưng vẫn bảo đảm các ý trong bản tổng hợp có nguồn đúng. AI không được tự mở rộng nguồn, sửa file gốc hay gửi bài; người học phải kiểm tra từng ý và tự quyết định bản cuối. Nhóm cân nhắc Workflow có AI hỗ trợ tìm đoạn và soạn nháp, nhưng phải so sánh trước với No AI/Rule. Quyết định hiện tại là Not Yet vì chưa có baseline và kiểm chứng đủ mạnh để triển khai.
 
 ---
 
 ## 7. Tài liệu tham khảo
 
--
+- [Worksheet — hướng dẫn CP1–CP7](../../docs/01-worksheet.md)
+- [Báo cáo nhóm 10 — phần CP3–CP6](../team/group_report.md)
