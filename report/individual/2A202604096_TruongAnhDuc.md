@@ -141,16 +141,16 @@ HIỆN TẠI — lần gần nhất kéo dài vài ngày; thời gian chủ đ�
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Chọn Card #2, ứng với vấn đề CP1 #4, làm card muốn pitch nhất. | Đã chuẩn bị lý do chọn và câu hỏi phản biện; chưa có ghi nhận xác nhận buổi pitch đã diễn ra. |
+| Phản biện bài của bạn khác |  |  |
+| Nhận phản biện |  |  |
+| Gom cluster / cây OST | Theo TEAM.md, đây không phải đầu việc chính được phân công cho tôi. | Báo cáo nhóm có cluster và OST; chưa có ghi nhận đóng góp cá nhân cụ thể của tôi ở phần này. |
+| Chọn candidate problem | Báo cáo nhóm ghi nhận candidate được chọn là tìm và tổng hợp thông tin học tập có nguồn kiểm chứng. | Đây là kết luận trong báo cáo nhóm; vai trò cá nhân của tôi trong chốt lựa chọn chưa được ghi nhận. |
+| Kiểm chứng / research | Theo phân công W3, phụ trách rà research và ghi nguồn Adobe, Zotero, Google; hỗ trợ W2 về assumption map và hồ sơ thu thập. | Báo cáo nhóm có bảng research với nguồn chính thức và giới hạn của từng công cụ; chưa có phỏng vấn/survey ngoài nhóm được xác nhận. |
+| Quy trình nhóm | Theo phân công W5, hỗ trợ rà Problem Statement v0 và bảng before/after. | Kiểm tra tính nhất quán với bottleneck, thời gian và boundary; quy trình được tổng hợp trong báo cáo nhóm. |
+| Problem Statement | Theo phân công W7, phụ trách rà Problem Statement v1 và 10 cặp eval. | Báo cáo nhóm có PS v1, 5 tiêu chí đánh giá và 10 cặp đầu vào/đầu ra kỳ vọng; đây là bộ chuẩn bị, chưa phải kết quả eval thực tế. |
+| Mức can thiệp AI | Đối chiếu phương án No AI, Rule, Workflow và Agent theo báo cáo nhóm. | Báo cáo đề xuất Workflow có AI hỗ trợ tìm đoạn/soạn nháp, người dùng kiểm nguồn; chỉ cân nhắc sau khi so sánh cách đơn giản hơn. |
+| Quyết định | Ghi nhận quyết định trong báo cáo nhóm. | Nhóm chọn **Not Yet**: cần baseline và kiểm chứng thêm trước khi triển khai giải pháp có AI. |
 
 ---
 
@@ -158,12 +158,12 @@ HIỆN TẠI — lần gần nhất kéo dài vài ngày; thời gian chủ đ�
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Hỗ trợ sắp xếp Job Story và rà các candidate theo lăng kính; góp ý rằng “tự động đề xuất thực đơn” là giải pháp chứ chưa phải problem. | Giúp chuẩn hóa cách diễn đạt và nhận ra ý tưởng đang nhảy sang giải pháp. | Các dấu hiệu ban đầu chỉ là ước lượng, không thể xem là dữ liệu đã kiểm chứng. | Giữ dấu “ước lượng”, yêu cầu đo lại; không đưa gợi ý giải pháp vào danh sách problem. |
+| CP2 Problem Card | Hỗ trợ điền quy trình, bottleneck, impact, metric và đóng vai PM hoài nghi cho các vấn đề #1, #4, #8. | Làm rõ điểm cần kiểm chứng, phương án No AI/Rule và câu hỏi pitch cho Card #2. | Một số thời lượng/quy trình là phác thảo; riêng lịch gặp chỉ có “vài ngày”, chưa tách thời gian chờ với thời gian thao tác. | Ghi rõ phần chưa đo; đặt cách thu thập baseline và giữ Card #2 là vấn đề muốn pitch. |
+| CP4 Research | Hỗ trợ tổng hợp bảng công cụ và nguồn chính thức cho phần research nhóm. | Giúp lập cấu trúc so sánh công cụ, bước được hỗ trợ và khoảng trống. | Tóm tắt của AI không tự chứng minh tính năng hoặc giới hạn sản phẩm. | Đối chiếu liên kết và nội dung trên nguồn chính thức trước khi đưa claim vào báo cáo nhóm. |
+| CP5 Quy trình | Hỗ trợ chuyển mô tả thành các bước và xác định bottleneck trong quy trình. | Giúp thấy chỗ cần ghi input, thời lượng và điểm phát sinh chuyến quay lại. | AI có thể tự điền thời gian hoặc giả định nguyên nhân chuyến quay lại khi dữ liệu chưa có. | Giữ thời gian 20 phút như ước lượng của CP1, đánh dấu thời gian lập danh sách chưa đo và yêu cầu ghi nguyên nhân chuyến phát sinh. |
+| CP5–6 Problem Statement | Hỗ trợ rà cách nối problem, actor, quy trình, metric và giới hạn trong PS nhóm. | Giúp phát hiện chỗ claim cần gắn với bằng chứng, phân biệt mục tiêu với kết quả. | Câu chữ trôi chảy có thể khiến giả định nghe như kết luận đã được xác nhận. | Giữ trạng thái bằng chứng/ước lượng và kiểm tra PS theo các nguồn đã ghi trong báo cáo nhóm. |
+| CP6 Mức can thiệp / quyết định | Hỗ trợ so sánh No AI/Rule/Workflow/Agent và trình bày lý do cho quyết định. | Làm rõ Workflow chỉ hỗ trợ một số bước, con người vẫn kiểm nguồn; giúp mô tả Not Yet và điều kiện cần kiểm chứng. | Gợi ý AI không thay thế được quyết định nhóm hay bằng chứng người dùng. | Giữ quyết định Not Yet theo báo cáo nhóm; yêu cầu baseline, kiểm chứng ngoài nhóm và phép thử trước khi triển khai. |
 
 ---
 
@@ -172,21 +172,36 @@ HIỆN TẠI — lần gần nhất kéo dài vài ngày; thời gian chủ đ�
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+Tôi nhận thấy vấn đề của tôi so với các bạn khá thực tế và đi đúng hướng nhưng không cùng chủ đề với họ.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+Nhóm em không gặp vấn đề solution-first.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+Em vẫn không thay đổi quan điểm khi bị phản biện cụ thể là liên quan đến lên list đồ phải mua bởi dù có bỏ ra thêm thời gian nhưng thứ nó đem lại là tiết kiệm tiền và không lãng phí thực phẩm.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+Kết quả kiểm chứng không làm tôi bất ngờ.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+Là phải nghĩ ra sự việc thật thuyết phục để khi xây dựng hỗ trợ thì nó phải thực sự cần thiết với con người.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+Tôi sẽ cố gắng khảo sát kĩ hơn.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+Trong bài nhóm, sinh viên mất nhiều thời gian tìm và tổng hợp ý từ nhiều tài liệu học tập, đồng thời khó quay lại đúng đoạn nguồn để kiểm tra. Quy trình dự kiến giới hạn trong một chủ đề và 6–8 tài liệu đã được người học duyệt: tìm đoạn liên quan, soạn bản tổng hợp có dẫn nguồn, rồi người học kiểm tra và sửa. Baseline tham chiếu hiện là 60–120 phút mỗi tác vụ theo tự thuật, còn mục tiêu đề xuất là tối đa 45 phút tính cả phần chuẩn bị được phân bổ. Bài làm phải giữ đúng nội dung và vị trí nguồn; chỉ đo nhanh hơn là chưa đủ nếu citation sai hoặc thiếu ý quan trọng. AI không được tự mở rộng nguồn, sửa tài liệu gốc hay gửi bài; người học luôn kiểm tra đầu ra và có thể quay lại cách làm thủ công. Nhóm đề xuất thử Workflow có AI sau khi so sánh với No AI/Rule, nhưng quyết định hiện tại là Not Yet vì baseline và kết quả kiểm chứng vẫn chưa đủ để triển khai.
+
+> Các câu 6.1–6.6 vẫn để bạn tự viết bằng trải nghiệm thật; hướng dẫn của mục này yêu cầu không dùng AI viết thay reflection.
 
 ---
 
 ## 7. Tài liệu tham khảo
 
--
+- [Báo cáo nhóm 10 — CP3–CP6](../team/group_report.md): candidate được chọn, research, Problem Statement v1, eval và quyết định Not Yet.
+- [Worksheet CP1–CP7](../../docs/01-worksheet.md).
+- [Bài làm mẫu](../../docs/02-deliverable-example.md).
+- [Adobe Acrobat — Searching in PDFs](https://helpx.adobe.com/acrobat/using/searching-pdfs.html).
+- [Zotero — PDF Reader and Note Editor](https://www.zotero.org/support/pdf_reader).
+- [Google — Add or discover new sources](https://support.google.com/gemininotebook/answer/16215270?hl=en).
+- [Google — Use chat in Gemini Notebook](https://support.google.com/gemininotebook/answer/16179559?hl=en).
