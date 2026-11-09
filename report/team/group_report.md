@@ -68,13 +68,23 @@ Trong báo cáo Tùng, bảng xếp hạng và phần card diễn đạt các kh
 
 **Outcome đề xuất** của nhánh được chọn: chuẩn bị một bản tổng hợp từ 6–8 tài liệu trong tối đa 45 phút/tác vụ, tính cả công kiểm nguồn và phần chuẩn bị được phân bổ; mọi ý thực tế đều truy được về nguồn.
 
-```text
-OUTCOME: Giảm công chuẩn bị bản tổng hợp mà vẫn kiểm tra lại được nguồn
-├── Opportunity 1: Khó tìm đúng đoạn khi không biết từ khóa hoặc tên file
-├── Opportunity 2: Ý liên quan rải ở nhiều tài liệu, dễ bỏ sót hoặc ghép sai ngữ cảnh
-├── Opportunity 3: Ghi chú không giữ rõ file, phiên bản và vị trí nguồn
-└── Opportunity 4: Công đối chiếu có thể lớn hơn phần thời gian được tiết kiệm
+![Cây opportunity — outcome và các nhu cầu cần giải quyết](../assets/cp3-opportunity-tree.png)
+
+[Bản SVG](../assets/cp3-opportunity-tree.svg) · [Nguồn Mermaid](../assets/cp3-opportunity-tree.mmd)
+
+<details>
+<summary>Xem sơ đồ Mermaid có thể chỉnh sửa</summary>
+
+```mermaid
+flowchart TD
+    O["Outcome: Tổng hợp từ 6–8 tài liệu trong ≤45 phút; mọi ý có nguồn kiểm được"]
+    O --> A["Khó tìm đúng đoạn khi chưa rõ từ khóa hoặc tên file"]
+    O --> B["Ý rải ở nhiều tài liệu, dễ thiếu hoặc ghép sai ngữ cảnh"]
+    O --> C["Ghi chú thiếu file, phiên bản và vị trí nguồn"]
+    O --> D["Công đối chiếu có thể lớn hơn công được tiết kiệm"]
 ```
+
+</details>
 
 Các ý được loại khỏi tầng opportunity vì là **solution**:
 
@@ -135,6 +145,8 @@ Thang “đã có bằng chứng”: 1 = chưa có dữ liệu phù hợp; 5 = c
 
 ### 3.2. Bằng chứng hiện có và kế hoạch kiểm chứng
 
+Tài liệu phụ: [hướng dẫn hỏi](../assets/cp4-interview-guide.md), [mẫu snapshot](../assets/cp4-interview-snapshot-template.md), [ghi chú nội bộ](../assets/cp4-interview-notes-internal.md), [mẫu survey](../assets/cp4-survey-form.md) và [CSV phản hồi trống](../assets/cp4-survey-responses-template.csv). Chưa có ảnh kết quả survey hoặc phỏng vấn ngoài nhóm.
+
 #### 3.2.1. Sổ bằng chứng
 
 | Mã | Nguồn, cách thu thập | Điều được ghi nhận | Giới hạn / tín hiệu phản bác |
@@ -188,6 +200,8 @@ Mỗi buổi ghi snapshot riêng với lời nói nguyên văn, hành vi, workar
 
 ### 3.3. Research giải pháp đã có
 
+[Bản ghi chú research lưu trong assets](../assets/cp4-research-notes.md).
+
 Các link dưới đây đã được mở kiểm tra ngày 09/11/2026. Nội dung “bài học” là suy luận thiết kế của bản báo cáo; tính năng công cụ không chứng minh giải pháp sẽ đạt metric của nhóm.
 
 | Công cụ / pattern | Nguồn chính thức | Giải bước nào? | Điểm mạnh đã kiểm từ tài liệu | Khoảng trống / bài học cho nhóm |
@@ -208,6 +222,13 @@ Các link dưới đây đã được mở kiểm tra ngày 09/11/2026. Nội du
 
 Bảng dưới dùng **mô hình 90 phút** nằm trong khoảng tự thuật của Khiêm để thiết kế phép đo. Phân bổ từng bước và bottleneck 30 phút là giả thuyết, chưa phải baseline đã đo của cả nhóm.
 
+![Quy trình hiện tại — mô hình 90 phút](../assets/cp5-workflow-current.png)
+
+[Bản SVG](../assets/cp5-workflow-current.svg) · [Nguồn Mermaid](../assets/cp5-workflow-current.mmd)
+
+<details>
+<summary>Xem sơ đồ Mermaid có thể chỉnh sửa</summary>
+
 ```mermaid
 flowchart LR
     A["1. Xác định yêu cầu — 5 phút"] --> B["2. Gom tài liệu — 10 phút"]
@@ -217,6 +238,8 @@ flowchart LR
     E --> F["6. Kiểm nội dung và nguồn — 10 phút"]
     F --> G["7. Lưu kết quả — 5 phút"]
 ```
+
+</details>
 
 | Bước | Actor | Input | Output / bàn giao | Thời gian mô hình | Ghi chú |
 |---:|---|---|---|---:|---|
@@ -243,6 +266,13 @@ Mỗi nguồn có mã riêng, tên file, phiên bản được người học ch
 
 #### 4.2.2. Xử lý một tác vụ trên bộ nguồn đã chuẩn bị
 
+![Quy trình tương lai — dự toán và điểm con người kiểm nguồn](../assets/cp5-workflow-future.png)
+
+[Bản SVG](../assets/cp5-workflow-future.svg) · [Nguồn Mermaid](../assets/cp5-workflow-future.mmd)
+
+<details>
+<summary>Xem sơ đồ Mermaid có thể chỉnh sửa</summary>
+
 ```mermaid
 flowchart LR
     A["1. Người học chốt câu hỏi — 3 phút"] --> B["2. Kiểm bộ nguồn — 2 phút"]
@@ -255,6 +285,8 @@ flowchart LR
     F -->|Không| I["Đọc nguồn thủ công hoặc dừng"]
     I --> E
 ```
+
+</details>
 
 | Bước | Mức xử lý | Input | Output | Dự toán / tác vụ | Người chịu trách nhiệm |
 |---:|---|---|---|---:|---|
@@ -412,6 +444,8 @@ Người kiểm chốt checklist trước khi xem đầu ra, ghi lỗi theo C1�
 
 ### 7.4. Bộ 10 cặp input / đầu ra mong đợi
 
+[Bản riêng của bộ eval trong assets](../assets/cp6-eval-cases.md).
+
 **Toàn bộ nguồn D01…D10 dưới đây là đoạn giả lập để kiểm tra hành vi, không phải file học tập đã được cung cấp hoặc kết quả phỏng vấn. Bộ này chưa được chạy qua công cụ, chưa có điểm pass thực tế.** Khi chạy phải giữ nguyên đoạn nguồn và câu hỏi; so ý nghĩa, căn cứ và giới hạn thay vì bắt khớp từng chữ.
 
 | # | Input: câu hỏi và nguồn giả lập | Đầu ra mong đợi | Tiêu chí áp dụng |
@@ -465,6 +499,8 @@ Bài toán đáng kiểm chứng vì có tình huống tra cứu/tổng hợp v�
 **Nếu No-Go cho nhánh AI:** No AI/Rule đã đủ và AI không tạo thêm lợi ích theo ngưỡng; hoặc công kiểm/sửa làm mất phần tiết kiệm; hoặc dữ liệu không thể dùng phù hợp. Vẫn giữ bài toán và áp dụng thư mục, annotation/checklist, bảng ghi nguồn; No-Go không có nghĩa nhu cầu tra cứu không tồn tại.
 
 ### 8.3. Thiết kế pilot nhỏ nhất sau khi đủ điều kiện
+
+Dùng [CSV nhật ký pilot](../assets/cp6-pilot-log-template.csv); vai trò người chính/hỗ trợ được chia đều trong [TEAM.md](../../TEAM.md). CSV hiện chỉ có tiêu đề cột, chưa có lượt thử thực tế.
 
 **Thời lượng đề xuất:** 2 tuần từ khi có người và nguồn phù hợp; không phải lịch thử đã diễn ra.
 
@@ -549,3 +585,10 @@ Những hướng như chi tiêu, chuẩn bị đi chợ hoặc tổng hợp báo
 ### 10.3. Minh bạch việc sử dụng AI
 
 AI đã hỗ trợ đọc/tổng hợp 4 file, gom cluster, đề xuất bảng điểm và candidate, research nguồn chính thức, dựng mô hình thời gian, soạn báo cáo và 10 cặp eval giả lập. Không ghi các hoạt động này thành phiên pitch không dùng AI, cuộc phỏng vấn người thật hoặc quyết định tập thể đã xác nhận. Chưa có ứng dụng, pilot hay kết quả eval thực tế được tạo trong lần hoàn thiện tài liệu này.
+
+### 10.4. Assets và phân công
+
+- [Danh mục toàn bộ ảnh, sơ đồ, ghi chú và biểu mẫu](../assets/README.md).
+- [TEAM.md — 8 đầu việc chia đều cho 4 người](../../TEAM.md): mỗi người chính 2, hỗ trợ 2, tỷ trọng dự kiến 25%.
+- Ảnh PNG/SVG là sơ đồ minh họa từ nội dung báo cáo; không phải ảnh khảo sát hay kết quả pilot.
+- AI hỗ trợ tạo ảnh, xuất nguồn Mermaid, chuẩn bị biểu mẫu và chia ngẫu nhiên công việc theo yêu cầu. Phân công là kế hoạch rà soát; không thay cho xác nhận đóng góp thực tế.
