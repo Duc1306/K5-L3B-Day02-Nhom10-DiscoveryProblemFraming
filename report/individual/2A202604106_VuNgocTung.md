@@ -1,5 +1,6 @@
 # Báo cáo cá nhân — 2A202604106_VuNgocTung
 
+
 > Đổi tên file theo quy tắc `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md` (MSSV trước, dấu `_`, họ tên viết liền không dấu). Sửa cả dòng tiêu đề phía trên cho khớp.
 > Template chi tiết và prompt mẫu cho từng mục: [docs/01-worksheet.md](../../docs/01-worksheet.md).
 > Mỗi thành viên một file trong `report/individual/` trên repo nhóm: copy template này thành file mới, điền, rồi commit bằng tài khoản GitHub của bạn. Không viết hộ người khác.
@@ -42,8 +43,8 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
 |---:|---|---|---|
 | 1 | Tìm thông tin cần thiết trong nhiều tài liệu Word/PDF | Khớp trực tiếp với vấn đề cá nhân đã mô tả: tìm lâu và khó tìm | Mới có ước lượng 5–10 phút khi có ít tài liệu/đặt tên rõ và 15–20 phút khi tài liệu nhiều/khó nhận biết; chưa ghi thời gian theo từng tác vụ |
-| 2 | Tổng hợp các ý liên quan từ nhiều tài liệu | Là bước tiếp theo có thể gây tốn công khi thông tin nằm rải rác | Cần xác nhận bằng một ví dụ gần đây; chưa đo thời gian hay lỗi bỏ sót |
-| 3 | Kiểm tra lại thông tin tổng hợp với tài liệu nguồn | Giúp bảo đảm nội dung tìm được đúng ngữ cảnh | Chưa xác nhận đây là pain riêng hay chỉ là một phần của việc tìm/tổng hợp |
+| 2 | Khoanh vùng đúng tài liệu và đoạn cần đọc khi thông tin nằm rải rác | Là bước dò tìm có thể gây tốn công khi phải mở nhiều tệp | Chưa đo riêng; cần xác nhận đây là vấn đề riêng hay một phần của việc tìm ở card #1 |
+| 3 | Tổng hợp các ý và giữ đường dẫn về nguồn để kiểm tra lại | Giúp bảo đảm nội dung đúng ngữ cảnh; đã có một sự cố dẫn sai nguồn mất thêm khoảng 15 phút | Mới có một tình huống cá nhân, chưa biết tần suất; chưa xác nhận đây là pain riêng hay một phần của việc tìm/tổng hợp |
 
 ### Problem Card #1
 
@@ -159,42 +160,39 @@ Chưa quan sát và đo riêng quy trình này
 | CP5 Quy trình | Dùng AI để phản biện bản mô tả quy trình và gợi ý điểm nghẽn/cách đo | Hỗ trợ nhận ra cần tách bước tìm, đọc, tổng hợp và kiểm nguồn | Có thể nhảy sang giải pháp trước khi xác định nguyên nhân gốc | Tập trung mô tả nhu cầu, actor và bottleneck trước; các bước chưa quan sát được ghi là bản nháp |
 | CP5–6 Problem Statement | Dùng AI để rà soát actor, vấn đề, metric và boundary | Gợi ý cấu trúc và các câu hỏi còn thiếu | Đề xuất ban đầu còn chung, chưa tập trung đúng nhóm người có pain | Chỉnh lại theo vấn đề tra cứu tài liệu; giữ rõ việc cần đo và điều người học phải tự kiểm tra |
 | CP6 Mức can thiệp / quyết định | Dùng AI để xem xét các mức can thiệp và phản biện đề xuất | Hỗ trợ so sánh phương án đơn giản với Workflow có AI | AI có thể đề xuất giải pháp rộng hơn nhu cầu thực tế và không nêu đủ giới hạn | Ưu tiên phương án đơn giản, giới hạn AI ở tìm đoạn/soạn nháp có nguồn, giữ người học trong bước kiểm tra; theo báo cáo nhóm, quyết định hiện tại là Not Yet |
+| CP7 Reflection | Dùng AI để sắp xếp lại các ghi chú ngắn của tôi thành văn bản mục 6.1–6.6 và soạn mục 6.7 từ nội dung đã có trong báo cáo | Giúp diễn đạt mạch lạc từ ý thô | Văn bản có thể chung chung, chưa phản ánh đầy đủ trải nghiệm riêng | Tôi cung cấp ý và sự kiện, đọc lại và chỉnh từng câu cho đúng với trải nghiệm của mình |
 
 ---
 
 ## 6. Reflection (CP7)
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
-
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
-Ghi chú của tôi: học được cách suy nghĩ và đưa ra giải pháp của thành viên khác; trong buổi hôm nay, các nhóm khác đề xuất thêm chức năng thông báo lịch học/làm việc vào sản phẩm và tôi cảm thấy cần thiết.
+Điều tôi học được rõ nhất là cách tư duy để tìm ra gốc rễ vấn đề: hỏi vì sao vấn đề xảy ra trước khi nghĩ đến cách giải. Một số nhóm đề xuất chức năng học tập và chức năng đặt lịch học tập. Tôi thấy các ý này thiết thực với sinh viên và là hướng tôi có thể tham khảo khi nhìn lại bài của mình.
 
-**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+**6.2. Nhóm có lúc nào bị "solution-first" không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
-Ghi chú của tôi: có solution-first; cần xác định mình đang gặp vấn đề gì, đưa ra các phương án để giải quyết, rồi tạo MVP sớm để trải nghiệm và hoàn thiện.
+Có. Một bạn trong nhóm nói đến việc áp dụng AI ngay khi vấn đề vừa được đưa ra, trong khi chúng tôi chưa hiểu rõ gốc rễ. Sau khi bàn luận thêm, nhóm thống nhất cần tập trung vào gốc rễ vấn đề trước rồi mới chọn giải pháp. Tôi rút ra rằng nhận ra sớm giúp nhóm không chọn công cụ trước khi hiểu bài toán.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
-[Tự viết trải nghiệm của bạn. Nếu không nhận phản biện đáng kể hoặc không đổi ý, ghi rõ điều đó.]
+Khi nhận góp ý từ nhóm khác, tôi không thấy cần đổi hướng lớn cho candidate của mình. Tuy vậy, nhiều ý kiến khá hay và có thể áp dụng, nên tôi ghi nhận để tiếp tục làm rõ gốc rễ vấn đề thay vì thay đổi vấn đề.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
-Ghi chú của tôi: không phỏng vấn, nhưng gặp thực tế từ những người xung quanh và kể cả bản thân.
+Không bất ngờ nhiều, vì tôi không phỏng vấn mà dựa vào những gì gặp ở người xung quanh và ở bản thân. Nhóm nhận thấy bằng chứng hiện còn khá chung chung, ở mức trung bình. Tôi xem đó là tín hiệu cần cải thiện: bằng chứng mới chủ yếu là trải nghiệm và ước lượng, chưa đo có hệ thống, nên cần ghi thời gian thật trước khi kết luận.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
-Ghi chú của tôi: phần khó nhất khi viết Problem Statement là xác định đúng gốc rễ vấn đề.
+Điều khó nhất là phân biệt gốc rễ với triệu chứng. Ví dụ, việc tìm tài liệu mất nhiều thời gian có thể là vấn đề chính, nhưng cũng có thể chỉ là triệu chứng của việc tài liệu và tên tệp chưa được tổ chức rõ. Tôi dùng ghi chú và thảo luận với nhóm để tách hai thứ này, nhưng vẫn còn mơ hồ và cần làm rõ thêm.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
-Ghi chú của tôi: nếu làm lại, tôi sẽ xem xét và đưa ra các câu hỏi để tìm nguyên nhân gốc rễ của vấn đề, thay vì đi thẳng vào giải pháp.
-
-> **Cần hoàn thiện:** đây mới là ghi chú ban đầu, chưa đạt yêu cầu tối thiểu 200 từ cho 6.1–6.6. Hãy tự phát triển thành reflection bằng lời của bạn; không dùng AI để viết thay phần này.
+Tôi sẽ dành nhiều thời gian hơn để tìm gốc rễ trước khi nghĩ đến giải pháp, vì chỉ khi gốc rễ rõ ràng mới tìm được giải pháp phù hợp. Tôi cũng sẽ đặt cho nhóm nhiều câu hỏi "vì sao" hơn ở giai đoạn đầu.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
-> **Bản nháp tham khảo có AI hỗ trợ — hãy tự kiểm tra và diễn đạt lại bằng lời của mình trước khi nộp:** Nhóm tập trung vào việc sinh viên mất thời gian tìm, đối chiếu và tổng hợp thông tin từ nhiều tài liệu học tập, đồng thời khó quay lại đúng nguồn. Quy trình gồm chốt câu hỏi và bộ tài liệu, tìm đoạn liên quan, ghi nguồn, tổng hợp rồi kiểm tra lại. Baseline cần đo trên các tác vụ tương đương; mục tiêu nhóm đề xuất là giảm thời gian nhưng vẫn bảo đảm các ý trong bản tổng hợp có nguồn đúng. AI không được tự mở rộng nguồn, sửa file gốc hay gửi bài; người học phải kiểm tra từng ý và tự quyết định bản cuối. Nhóm cân nhắc Workflow có AI hỗ trợ tìm đoạn và soạn nháp, nhưng phải so sánh trước với No AI/Rule. Quyết định hiện tại là Not Yet vì chưa có baseline và kiểm chứng đủ mạnh để triển khai.
+Vấn đề nhóm chọn là sinh viên mất thời gian tìm, đối chiếu và tổng hợp thông tin từ nhiều tài liệu Word/PDF, đồng thời khó quay lại đúng nguồn để kiểm tra. Quy trình hiện tại gồm xác định câu hỏi, mở các tệp có thể liên quan, tìm và đọc đoạn phù hợp, ghi lại nội dung cùng nguồn, rồi đối chiếu và tổng hợp. Điểm nghẽn là bước tìm đúng nội dung, ước lượng 5–10 phút khi tài liệu ít và 15–20 phút khi tài liệu nhiều, nhưng đây mới là ước lượng cá nhân, chưa đo có hệ thống. Metric là đo thời gian và số tệp trong ít nhất 5 tác vụ, với mục tiêu thử nghiệm là giảm thời gian mà mọi ý vẫn đúng nguồn. Boundary là AI không tự mở rộng nguồn, không sửa file gốc và không tự gửi bài, còn người học phải kiểm từng ý và quyết định bản cuối. Mức can thiệp nhóm đề xuất là Workflow có AI hỗ trợ ở hai bước tìm đoạn và soạn nháp, nhưng chỉ cân nhắc sau khi thử No AI/Rule như mục lục, bookmark và tìm kiếm từ khóa. Quyết định hiện tại là Not Yet vì chưa có baseline và kiểm chứng đủ mạnh để triển khai.
 
 ---
 
